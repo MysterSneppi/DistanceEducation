@@ -4,6 +4,103 @@
              xmlns:local="clr-namespace:DistanceEducation_Windows_"
              StartupUri="Pages\MainWindow.xaml">
     <Application.Resources>
-         
+
+        <!--MenuButton-->
+        <Style BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}" x:Key="MenuButtonTheme" >
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RadioButton}"  x:Name="MenuButton">
+                            <Border VerticalAlignment="Stretch"
+                              HorizontalAlignment="Stretch"
+                              Background="{TemplateBinding Background}"
+                                    CornerRadius="0,10,10,0"
+                                    Margin="0,0,10,0">
+
+                                <StackPanel Orientation="Horizontal">
+                                    <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "{ Binding Tag , RelativeSource = { RelativeSource FindAncestor , AncestorType = {x:Type RadioButton }}}"
+                                           Width="40"
+                                           Height="40"
+                                           Margin="15,0,10,0"
+                                           HorizontalAlignment="Center"/>
+
+                                    <TextBlock Text="{TemplateBinding Property=Content}"
+                                       VerticalAlignment="Center"
+                                            
+                                       
+                                       
+                                       Foreground="{TemplateBinding Property=Foreground}"
+                                       FontSize="20"/>
+
+                                </StackPanel>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="Background"  Value="Transparent" />
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="Gray"/>
+                <Setter Property="Height" Value="50"/>
+            </Style.Setters>
+
+
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="#2F3CED"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+
+                <Trigger Property="IsMouseOver" Value="True" >
+                    <Setter Property="Background" Value="#2F3CED"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <!--AccountButton-->
+
+        <Style BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}" x:Key="AccountButton" >
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RadioButton}"  x:Name="MenuButton">
+                            <Border 
+                              Background="{TemplateBinding Background}"
+                                    CornerRadius="10,10,10,10"
+                                    Margin="15,0,10,0">
+
+                                <ContentPresenter />
+
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="Background"  Value="Transparent" />
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="Gray"/>
+                <Setter Property="Height" Value="50"/>
+            </Style.Setters>
+
+
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="Gray"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+
+                <Trigger Property="IsMouseOver" Value="True" >
+                    <Setter Property="Background" Value="CadetBlue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>

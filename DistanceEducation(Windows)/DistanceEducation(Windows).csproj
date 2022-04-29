@@ -2,15 +2,24 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <RootNamespace>DistanceEducation_Windows_</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Icons\best.png" />
+    <None Remove="Resources\Icons\books.png" />
+    <None Remove="Resources\Icons\chat.png" />
+    <None Remove="Resources\Icons\home.png" />
+    <None Remove="Resources\Icons\setting.png" />
+    <None Remove="Resources\Icons\test.png" />
+    <None Remove="Resources\Icons\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Resources\Icons\" />
     <Folder Include="Resources\Fonts\" />
     <Folder Include="Resources\Themes\" />
     <Folder Include="ViewModels\" />
@@ -18,23 +27,45 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\Languages\Language.Designer.cs">
+    <PackageReference Include="FontAwesome.Sharp" Version="5.15.4" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\best.png" />
+    <Resource Include="Resources\Icons\books.png" />
+    <Resource Include="Resources\Icons\chat.png" />
+    <Resource Include="Resources\Icons\home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\setting.png" />
+    <Resource Include="Resources\Icons\test.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Languages\Lang.ru.Designer.cs">
+      <DependentUpon>Lang.ru.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Language.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\Lang.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Lang.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Languages\Language.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Language.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Languages\Language.en-US.resx">
+    <EmbeddedResource Update="Resources\Languages\Lang.ru.resx">
+      <LastGenOutput>Lang.ru.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Languages\Language.ru-RU.resx">
+    <EmbeddedResource Update="Resources\Languages\Lang.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

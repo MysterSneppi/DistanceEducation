@@ -6,9 +6,112 @@
         xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:icon="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        Title="MainWindow" Height="700" Width="1200">
     <Grid>
-        <Button Content="{x:Static language:Language.Main}"
-                FontSize="40"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--LeftMenu-->
+        <Grid Grid.Column="0">
+            <Border Background="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <!--NameApp-->
+                        <RowDefinition Height="0.2*"/>
+                        <!--Menu-->
+                        <RowDefinition Height="0.7*"/>
+                        <!--Account-->
+                        <RowDefinition Height="0.1*"/>
+                    </Grid.RowDefinitions>
+
+                    <!--NameApp-->
+                    <Border Grid.Row="0">
+                        <Label Content="DEducation"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontSize="32"
+                               FontWeight="Bold"/>
+                    </Border>
+                    
+                    <!--Menu-->
+                    <StackPanel Grid.Row="1">
+                        <RadioButton Tag="/Resources/Icons/home.png"
+                                     Content="{x:Static language:Lang.Main}"
+                                     Style="{StaticResource MenuButtonTheme}"                                      
+                                     IsChecked="True"                         
+                            >
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/books.png"
+                                     Content="{x:Static language:Lang.HomeWork}" 
+                                     Style="{StaticResource MenuButtonTheme}" >
+                            
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/books.png"
+                                     Content="{x:Static language:Lang.Lesson}"
+                                     Style="{StaticResource MenuButtonTheme}">
+                            
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/chat.png"
+                                     Content="{x:Static language:Lang.Chats}" 
+                                     Style="{StaticResource MenuButtonTheme}">
+
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/test.png"
+                                     Content="{x:Static language:Lang.Tests}"
+                                     Style="{StaticResource MenuButtonTheme}">
+
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/best.png"
+                                     Content="{x:Static language:Lang.Grades}" 
+                                     Style="{StaticResource MenuButtonTheme}">
+
+                        </RadioButton>
+                        <RadioButton Content="{x:Static language:Lang.GradesList}"
+                                     Style="{StaticResource MenuButtonTheme}">
+
+                        </RadioButton>
+                        <RadioButton Tag="/Resources/Icons/setting.png"
+                                     Content="{x:Static language:Lang.Settings}" 
+                                     Style="{StaticResource MenuButtonTheme}">
+
+                        </RadioButton>
+                    </StackPanel>
+
+                    <!--AccountButton-->
+                    <RadioButton Grid.Row="2" 
+                                 Style="{StaticResource AccountButton}">
+
+                        <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                            <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "/Resources/Icons/user.png"
+                                           Width="40"
+                                           Height="40"
+                                           Margin="0,0,10,0"
+                                           HorizontalAlignment="Center"
+                                           />
+                            <StackPanel Orientation="Vertical" >
+                                <Label Content="Кармазин Алексей"
+                                       FontSize="14"
+                                       FontWeight="Bold"/>
+                                <Label Content="Студент 18 ПР-1"
+                                       FontSize="13"
+                                       Foreground="Gray"
+                                       Margin="0,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                        
+                    </RadioButton>
+                </Grid>
+            </Border>
+        </Grid>
+        <!--Content-->
+        <Grid Grid.Column="1">
+            <Border Background="DarkBlue">
+                </Border>
+        </Grid>
+        
     </Grid>
 </Window>

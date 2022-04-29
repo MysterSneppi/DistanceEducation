@@ -7,3 +7,5 @@ global using System.Threading.Tasks;
 global using System.Windows.Controls;
 global using System.Globalization;
 global using System.Threading;
+global using System.Reflection;
+global using System.Resources;
