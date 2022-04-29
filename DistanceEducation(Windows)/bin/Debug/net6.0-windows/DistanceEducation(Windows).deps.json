@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DistanceEducation(Windows)/1.0.0": {
+        "runtime": {
+          "DistanceEducation(Windows).dll": {}
+        },
+        "resources": {
+          "en-US/DistanceEducation(Windows).resources.dll": {
+            "locale": "en-US"
+          },
+          "ru-RU/DistanceEducation(Windows).resources.dll": {
+            "locale": "ru-RU"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistanceEducation(Windows)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
