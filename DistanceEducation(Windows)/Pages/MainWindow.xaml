@@ -7,7 +7,7 @@
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         mc:Ignorable="d"
         xmlns:icon="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
-        Title="MainWindow" Height="700" Width="1200">
+        Title="DistanceEducation" Height="700" Width="1200">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
@@ -84,7 +84,7 @@
                     <RadioButton Grid.Row="2" 
                                  Style="{StaticResource AccountButton}">
 
-                        <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
                             <Image RenderOptions.BitmapScalingMode="HighQuality" 
                                            Source = "/Resources/Icons/user.png"
                                            Width="40"
@@ -93,13 +93,13 @@
                                            HorizontalAlignment="Center"
                                            />
                             <StackPanel Orientation="Vertical" >
-                                <Label Content="Кармазин Алексей"
+                                <Label Content="Имя ученика"
                                        FontSize="14"
                                        FontWeight="Bold"/>
-                                <Label Content="Студент 18 ПР-1"
+                                <Label Content="Класс/Группа"
                                        FontSize="13"
                                        Foreground="Gray"
-                                       Margin="0,0,0,0"/>
+                                       Margin="0,0,0,0" Height="25"/>
                             </StackPanel>
                         </StackPanel>
                         
