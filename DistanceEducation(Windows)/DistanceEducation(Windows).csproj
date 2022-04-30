@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Icons\ArrowUserButton.png" />
     <None Remove="Resources\Icons\best.png" />
     <None Remove="Resources\Icons\books.png" />
     <None Remove="Resources\Icons\chat.png" />
@@ -32,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Icons\ArrowUserButton.png" />
     <Resource Include="Resources\Icons\best.png" />
     <Resource Include="Resources\Icons\books.png" />
     <Resource Include="Resources\Icons\chat.png" />

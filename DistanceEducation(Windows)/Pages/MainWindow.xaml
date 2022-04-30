@@ -69,7 +69,8 @@
                                      Style="{StaticResource MenuButtonTheme}">
 
                         </RadioButton>
-                        <RadioButton Content="{x:Static language:Lang.GradesList}"
+                        <RadioButton Tag="/Resources/Icons/best.png"
+                                     Content="{x:Static language:Lang.GradesList}"
                                      Style="{StaticResource MenuButtonTheme}">
 
                         </RadioButton>
@@ -98,9 +99,17 @@
                                        FontWeight="Bold"/>
                                 <Label Content="Класс/Группа"
                                        FontSize="13"
-                                       Foreground="Gray"
-                                       Margin="0,0,0,0" Height="25"/>
+                                       Foreground="Gray"/>
                             </StackPanel>
+
+
+                            <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "/Resources/Icons/ArrowUserButton.png"
+                                           Width="24"
+                                           
+                                           
+                                           HorizontalAlignment="Center"/>
+
                         </StackPanel>
                         
                     </RadioButton>
@@ -109,8 +118,21 @@
         </Grid>
         <!--Content-->
         <Grid Grid.Column="1">
-            <Border Background="DarkBlue">
-                </Border>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.8*"/>
+            </Grid.RowDefinitions>
+
+            <!--Header-->
+            <Grid Grid.Row="0" >
+                
+            </Grid>
+
+            <!--Body-->
+            <Grid Grid.Row="1" Background="Gray">
+                
+            </Grid>
+
         </Grid>
         
     </Grid>

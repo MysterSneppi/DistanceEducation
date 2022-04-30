@@ -87,14 +87,9 @@
 
 
             <Style.Triggers>
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Background" Value="Gray"/>
-                    <Setter Property="Foreground" Value="White"/>
-                </Trigger>
-
                 <Trigger Property="IsMouseOver" Value="True" >
-                    <Setter Property="Background" Value="CadetBlue"/>
-                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="BorderThickness" Value="1"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
