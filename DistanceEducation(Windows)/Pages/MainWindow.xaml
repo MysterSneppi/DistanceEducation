@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
+        xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
         mc:Ignorable="d"
-        xmlns:icon="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         Title="DistanceEducation" Height="700" Width="1200">
+
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
@@ -41,42 +46,50 @@
                         <RadioButton Tag="/Resources/Icons/home.png"
                                      Content="{x:Static language:Lang.Main}"
                                      Style="{StaticResource MenuButtonTheme}"                                      
-                                     IsChecked="True"                         
+                                     IsChecked="True"
+                                     Command="{Binding MainPageCommand}"
                             >
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/books.png"
                                      Content="{x:Static language:Lang.HomeWork}" 
-                                     Style="{StaticResource MenuButtonTheme}" >
+                                     Style="{StaticResource MenuButtonTheme}" 
+                                     Command="{Binding HomeWorkPageCommand}">
                             
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/books.png"
                                      Content="{x:Static language:Lang.Lesson}"
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding LessonPageCommand}">
                             
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/chat.png"
                                      Content="{x:Static language:Lang.Chats}" 
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding ChatsPageCommand}">
 
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/test.png"
                                      Content="{x:Static language:Lang.Tests}"
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding TestsPageCommand}">
 
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/best.png"
                                      Content="{x:Static language:Lang.Grades}" 
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding GradesPageCommand}">
 
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/best.png"
                                      Content="{x:Static language:Lang.GradesList}"
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding GradesListPageCommand}">
 
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/setting.png"
                                      Content="{x:Static language:Lang.Settings}" 
-                                     Style="{StaticResource MenuButtonTheme}">
+                                     Style="{StaticResource MenuButtonTheme}"
+                                     Command="{Binding SettingsPageCommand}">
 
                         </RadioButton>
                     </StackPanel>
@@ -96,10 +109,12 @@
                             <StackPanel Orientation="Vertical" >
                                 <Label Content="Имя ученика"
                                        FontSize="14"
-                                       FontWeight="Bold"/>
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"/>
                                 <Label Content="Класс/Группа"
                                        FontSize="13"
-                                       Foreground="Gray"/>
+                                       Foreground="Gray"
+                                       Margin="0,-10,0,0"/>
                             </StackPanel>
 
 
@@ -124,14 +139,16 @@
             </Grid.RowDefinitions>
 
             <!--Header-->
-            <Grid Grid.Row="0" >
+            <Grid Grid.Row="0" 
+                  Background="Black">
                 
             </Grid>
 
             <!--Body-->
-            <Grid Grid.Row="1" Background="Gray">
-                
-            </Grid>
+
+            <Frame Grid.Row="1" 
+                   Content="{Binding CurrentView}" 
+                   NavigationUIVisibility="Hidden"/>
 
         </Grid>
         

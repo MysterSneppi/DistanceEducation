@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:DistanceEducation_Windows_"
+             xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
+             xmlns:pages="clr-namespace:DistanceEducation_Windows_.Pages"
              StartupUri="Pages\MainWindow.xaml">
     <Application.Resources>
 

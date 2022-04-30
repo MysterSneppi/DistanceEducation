@@ -9,6 +9,7 @@
       Title="TestsPage">
 
     <Grid>
-        
+        <Image RenderOptions.BitmapScalingMode="HighQuality" 
+               Source = "/Resources/Images/reconstruktion.png"/>
     </Grid>
 </Page>
