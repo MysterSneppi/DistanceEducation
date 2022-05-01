@@ -120,25 +120,49 @@
   <data name="Chats" xml:space="preserve">
     <value>Chats</value>
   </data>
+  <data name="ChatsHeaderText" xml:space="preserve">
+    <value>-----</value>
+  </data>
   <data name="Grades" xml:space="preserve">
     <value>Grades</value>
+  </data>
+  <data name="GradesHeaderText" xml:space="preserve">
+    <value>-----</value>
   </data>
   <data name="GradesList" xml:space="preserve">
     <value>GradesList</value>
   </data>
+  <data name="GradesListHeaderText" xml:space="preserve">
+    <value>-----</value>
+  </data>
   <data name="HomeWork" xml:space="preserve">
     <value>HomeWork</value>
+  </data>
+  <data name="HomeWorkHeaderText" xml:space="preserve">
+    <value>Here are your assignments.</value>
   </data>
   <data name="Lesson" xml:space="preserve">
     <value>Lesson</value>
   </data>
+  <data name="LessonHeaderText" xml:space="preserve">
+    <value>-----</value>
+  </data>
   <data name="Main" xml:space="preserve">
     <value>Main</value>
+  </data>
+  <data name="MainHeaderText" xml:space="preserve">
+    <value>Why aren't you in class yet?</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="SettingsHeaderText" xml:space="preserve">
+    <value>Settings.</value>
+  </data>
   <data name="Tests" xml:space="preserve">
     <value>Tests</value>
+  </data>
+  <data name="TestsHeaderText" xml:space="preserve">
+    <value />
   </data>
 </root>

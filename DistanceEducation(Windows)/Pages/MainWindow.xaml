@@ -21,7 +21,9 @@
 
         <!--LeftMenu-->
         <Grid Grid.Column="0">
-            <Border Background="White">
+            <Border Background="White"
+                    BorderBrush="#E4E4E4"
+                    BorderThickness="0,0,1,0">
                 <Grid>
                     <Grid.RowDefinitions>
                         <!--NameApp-->
@@ -132,16 +134,45 @@
             </Border>
         </Grid>
         <!--Content-->
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" Margin="10,0,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.2*"/>
                 <RowDefinition Height="0.8*"/>
             </Grid.RowDefinitions>
 
             <!--Header-->
-            <Grid Grid.Row="0" 
-                  Background="Black">
+            <Grid Grid.Row="0">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.6*"/>
+                        <ColumnDefinition Width="0.4*"/>
+                    </Grid.ColumnDefinitions>
                 
+                    <Label Content="{Binding HeaderText}"
+                           FontSize="40"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+
+                    <DockPanel Grid.Column="1" 
+                               LastChildFill="False"
+                               Background="#F5FBFF">
+                        <Border CornerRadius="30"
+                            DockPanel.Dock="Right"
+                            Background="White"
+                            VerticalAlignment="Center"
+                            Height="48"
+                            Width="48"
+                            Margin="0,0,60,0">
+                            <Image Width="24"
+                                   Height="24"
+                                   Source="/Resources/Icons/bell.png"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Border>
+                    </DockPanel>
+                </Grid>
+
             </Grid>
 
             <!--Body-->

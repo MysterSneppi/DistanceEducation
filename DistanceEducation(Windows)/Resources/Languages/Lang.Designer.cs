@@ -70,11 +70,29 @@ namespace DistanceEducation_Windows_.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -----.
+        /// </summary>
+        public static string ChatsHeaderText {
+            get {
+                return ResourceManager.GetString("ChatsHeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grades.
         /// </summary>
         public static string Grades {
             get {
                 return ResourceManager.GetString("Grades", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -----.
+        /// </summary>
+        public static string GradesHeaderText {
+            get {
+                return ResourceManager.GetString("GradesHeaderText", resourceCulture);
             }
         }
         
@@ -88,11 +106,29 @@ namespace DistanceEducation_Windows_.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -----.
+        /// </summary>
+        public static string GradesListHeaderText {
+            get {
+                return ResourceManager.GetString("GradesListHeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to HomeWork.
         /// </summary>
         public static string HomeWork {
             get {
                 return ResourceManager.GetString("HomeWork", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Here are your assignments..
+        /// </summary>
+        public static string HomeWorkHeaderText {
+            get {
+                return ResourceManager.GetString("HomeWorkHeaderText", resourceCulture);
             }
         }
         
@@ -106,11 +142,29 @@ namespace DistanceEducation_Windows_.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -----.
+        /// </summary>
+        public static string LessonHeaderText {
+            get {
+                return ResourceManager.GetString("LessonHeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Main.
         /// </summary>
         public static string Main {
             get {
                 return ResourceManager.GetString("Main", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why aren&apos;t you in class yet?.
+        /// </summary>
+        public static string MainHeaderText {
+            get {
+                return ResourceManager.GetString("MainHeaderText", resourceCulture);
             }
         }
         
@@ -124,11 +178,29 @@ namespace DistanceEducation_Windows_.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Settings..
+        /// </summary>
+        public static string SettingsHeaderText {
+            get {
+                return ResourceManager.GetString("SettingsHeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tests.
         /// </summary>
         public static string Tests {
             get {
                 return ResourceManager.GetString("Tests", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string TestsHeaderText {
+            get {
+                return ResourceManager.GetString("TestsHeaderText", resourceCulture);
             }
         }
     }

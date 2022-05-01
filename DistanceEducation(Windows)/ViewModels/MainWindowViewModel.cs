@@ -29,6 +29,19 @@
         #endregion
 
 
+        #region ObjectBinding
+        private string _headerText;
+
+        public string HeaderText
+        {
+            get { return _headerText; }
+            set
+            {
+                _headerText = value;
+                OnPropertyChanged();
+            }
+        }
+
         private object _currentView;
 
         public object CurrentView
@@ -40,6 +53,9 @@
                 OnPropertyChanged();
             }
         }
+        #endregion
+
+
 
         public MainWindowViewModel()
         {
@@ -52,17 +68,20 @@
             GradesListPage = new GradesListPage();
             SettingsPage = new SettingsPage();
 
-
-            CurrentView = MainPage;
+            //Starter Page
+            CurrentView = MainPage;           
+            HeaderText = "Почему еще не на уроке?";
 
             MainPageCommand = new RelayCommand(o =>
             {
                 CurrentView = MainPage;
+                HeaderText = "Почему еще не на уроке?";
             });
 
             HomeWorkPageCommand = new RelayCommand(o =>
             {
                 CurrentView = HomeWorkPage;
+                HeaderText = "Вот твои задания.";
             });
 
             LessonPageCommand = new RelayCommand(o =>
@@ -93,6 +112,7 @@
             SettingsPageCommand = new RelayCommand(o =>
             {
                 CurrentView = SettingsPage;
+                HeaderText = "Настройки";
             });
 
         }
