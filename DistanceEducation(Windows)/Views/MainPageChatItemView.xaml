@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="DistanceEducation_Windows_.Views.MainPageChatItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DistanceEducation_Windows_.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="250">
+    
+        <Border CornerRadius="24" 
+                Background="#FFFFFF" 
+                Margin="10" 
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Width="190"
+                Height="187">
+
+            <Border.Effect>
+                <DropShadowEffect Color="#E3E6EC"  
+                                  ShadowDepth="1" 
+                                  Direction="280"/>
+            </Border.Effect>
+            
+            <Grid Margin="15">
+                <Grid.RowDefinitions>
+                    <!--NameSubject-->
+                    <RowDefinition Height="0.5*"/>
+                    <!--Info-->
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+
+                <!--NameSubject-->
+                <StackPanel Grid.Row="0">
+                    <Label Content="Mathematic"
+                           FontSize="16"
+                           FontWeight="Bold" HorizontalAlignment="Stretch"/>
+                    <Label Content="Чат по предмету" 
+                           FontSize="12"
+                           Foreground="Gray"
+                           FontWeight="Bold"/>
+                    <Label Content="Математика"
+                           Margin="0,-10,0,0"
+                           FontSize="12"
+                           Foreground="Gray"
+                           FontWeight="Bold"/>
+                </StackPanel>
+
+                <!--Info-->
+                <Grid Grid.Row="1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.6*"/>
+                        <ColumnDefinition Width="0.4*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <DockPanel LastChildFill="False">
+                        <Label Content="423 students"
+                               FontSize="12"
+                               Foreground="Gray"
+                                   DockPanel.Dock="Top"
+                                   Margin="0,20,0,0"
+                               HorizontalAlignment="Left" VerticalContentAlignment="Top" HorizontalContentAlignment="Left"/>
+                        <Image Source="/Resources/Images/Group.png" 
+                               DockPanel.Dock="Bottom"
+                               Height="24"
+                               Width="64"
+                               Margin="4,0,0,0"
+                               RenderOptions.BitmapScalingMode="HighQuality" 
+                               HorizontalAlignment="Left"
+                               />
+                    </DockPanel>
+
+                    <DockPanel Grid.Column="1" LastChildFill="False">
+                        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" >
+                            <Image Source="/Resources/Images/star.png"
+                               RenderOptions.BitmapScalingMode="HighQuality"
+                               Width="16"
+                               Height="16"
+                               HorizontalAlignment="Right"
+                                   Margin="0,0,10,0"/>
+                        <Image Source="/Resources/Images/menu.png"
+                               RenderOptions.BitmapScalingMode="HighQuality"
+                               Width="16"
+                               Height="16"
+                               Margin="0,0,0,0"
+                               HorizontalAlignment="Right"/>
+                        </StackPanel>
+                    </DockPanel>
+                    
+                    
+                </Grid>
+
+
+
+            </Grid>
+        </Border>
+    
+</UserControl>

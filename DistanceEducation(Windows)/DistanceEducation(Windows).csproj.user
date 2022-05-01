@@ -31,6 +31,9 @@
     <Compile Update="Pages\TestsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\MainPageChatItemView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Pages\ChatsPage.xaml">
@@ -58,6 +61,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\TestsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainPageChatItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

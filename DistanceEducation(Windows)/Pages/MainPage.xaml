@@ -4,12 +4,45 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
+      xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-     
-      Background="Gray">
+      d:DesignHeight="547" d:DesignWidth="950">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.6*"/>
+            <ColumnDefinition Width="0.4*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Left-->
+        <Grid  Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.6*"/>
+                <RowDefinition Height="0.4*"/>
+            </Grid.RowDefinitions>
+            <!--Event Notification-->
+            <Border Grid.Column="0" 
+                    Background="#2F3CED"
+                    CornerRadius="24"/>
+
+            <ItemsControl Grid.Row="1"  VerticalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"  />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <view:MainPageChatItemView />
+                <view:MainPageChatItemView/>
+                <view:MainPageChatItemView/>
+            </ItemsControl>
+
+        </Grid>
+        <!--Right-->
+        <Grid Grid.Column="1"
+              Background="Gray">
+            
+        </Grid>
+
     </Grid>
 </Page>

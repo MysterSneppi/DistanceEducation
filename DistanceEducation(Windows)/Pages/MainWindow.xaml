@@ -7,12 +7,12 @@
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
         mc:Ignorable="d"
-        Title="DistanceEducation" Height="700" Width="1200">
+        Title="DistanceEducation" Height="700" Width="1200" Background="#FDFDFD">
 
     <Window.DataContext>
         <viewModel:MainWindowViewModel/>
     </Window.DataContext>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
@@ -42,7 +42,7 @@
                                FontSize="32"
                                FontWeight="Bold"/>
                     </Border>
-                    
+
                     <!--Menu-->
                     <StackPanel Grid.Row="1">
                         <RadioButton Tag="/Resources/Icons/home.png"
@@ -56,13 +56,13 @@
                                      Content="{x:Static language:Lang.HomeWork}" 
                                      Style="{StaticResource MenuButtonTheme}" 
                                      Command="{Binding HomeWorkPageCommand}">
-                            
+
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/books.png"
                                      Content="{x:Static language:Lang.Lesson}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding LessonPageCommand}">
-                            
+
                         </RadioButton>
                         <RadioButton Tag="/Resources/Icons/chat.png"
                                      Content="{x:Static language:Lang.Chats}" 
@@ -128,7 +128,7 @@
                                            HorizontalAlignment="Center"/>
 
                         </StackPanel>
-                        
+
                     </RadioButton>
                 </Grid>
             </Border>
@@ -142,13 +142,12 @@
 
             <!--Header-->
             <Grid Grid.Row="0">
-
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="0.6*"/>
                         <ColumnDefinition Width="0.4*"/>
                     </Grid.ColumnDefinitions>
-                
+
                     <Label Content="{Binding HeaderText}"
                            FontSize="40"
                            FontWeight="Bold"
@@ -182,6 +181,7 @@
                    NavigationUIVisibility="Hidden"/>
 
         </Grid>
-        
+
     </Grid>
+
 </Window>

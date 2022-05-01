@@ -18,13 +18,15 @@
     <None Remove="Resources\Icons\setting.png" />
     <None Remove="Resources\Icons\test.png" />
     <None Remove="Resources\Icons\user.png" />
+    <None Remove="Resources\Images\Group.png" />
+    <None Remove="Resources\Images\menu.png" />
     <None Remove="Resources\Images\reconstruktion.png" />
+    <None Remove="Resources\Images\star.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Resources\Themes\" />
-    <Folder Include="Views\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,7 +48,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Icons\user.png" />
+    <Resource Include="Resources\Images\Group.png" />
+    <Resource Include="Resources\Images\menu.png" />
     <Resource Include="Resources\Images\reconstruktion.png" />
+    <Resource Include="Resources\Images\star.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -44,3 +44,5 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\FontAwesome.Sharp.dll
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\DistanceEducation(Windows).csproj.CopyComplete
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\GeneratedInternalTypeHelper.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageChatItemView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageChatItemView.baml
