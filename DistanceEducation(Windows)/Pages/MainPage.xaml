@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
       xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="547" d:DesignWidth="950">
+      d:DesignHeight="700" d:DesignWidth="1200">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -22,11 +22,11 @@
                 <RowDefinition Height="0.4*"/>
             </Grid.RowDefinitions>
             <!--Event Notification-->
-            <Border Grid.Column="0" 
-                    Background="#2F3CED"
-                    CornerRadius="24"/>
+            <view:ImageCarouselView Grid.Row="0" 
+                                    Margin="34,0,0,0"
+                                    HorizontalAlignment="Left"/>
 
-            <ItemsControl Grid.Row="1"  VerticalAlignment="Center">
+            <ItemsControl Grid.Row="1"  VerticalAlignment="Center" Margin="28,0,0,0">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal"  />
@@ -35,13 +35,47 @@
                 <view:MainPageChatItemView />
                 <view:MainPageChatItemView/>
                 <view:MainPageChatItemView/>
+                
             </ItemsControl>
-
+            
         </Grid>
         <!--Right-->
-        <Grid Grid.Column="1"
-              Background="Gray">
+        <Grid Grid.Column="1" 
+              Margin="24,0,38,15"
+              Background="#F5FBFF">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="0.9*"/>
+            </Grid.RowDefinitions>
             
+            
+            <Label Content="Занятия сегодня:"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Grid.Row="0"
+                   Margin="24,0,0,0"/>
+            
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" 
+                          Grid.Row="1">
+                <ItemsControl Grid.Row="1">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Vertical"  />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                
+                <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView/>
+                    <view:MainPageLessonItemView/>
+                    <view:MainPageLessonItemView/>
+                    <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView/>
+            </ItemsControl>
+            </ScrollViewer>
         </Grid>
 
     </Grid>

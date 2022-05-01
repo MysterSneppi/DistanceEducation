@@ -11,16 +11,18 @@
   <ItemGroup>
     <None Remove="Resources\Icons\ArrowUserButton.png" />
     <None Remove="Resources\Icons\bell.png" />
-    <None Remove="Resources\Icons\best.png" />
-    <None Remove="Resources\Icons\books.png" />
-    <None Remove="Resources\Icons\chat.png" />
-    <None Remove="Resources\Icons\home.png" />
-    <None Remove="Resources\Icons\setting.png" />
-    <None Remove="Resources\Icons\test.png" />
+    <None Remove="Resources\Icons\MenuIcon\Chat.png" />
+    <None Remove="Resources\Icons\MenuIcon\Grades.png" />
+    <None Remove="Resources\Icons\MenuIcon\GradesList.png" />
+    <None Remove="Resources\Icons\MenuIcon\HomeWork.png" />
+    <None Remove="Resources\Icons\MenuIcon\Main.png" />
+    <None Remove="Resources\Icons\MenuIcon\Setting.png" />
+    <None Remove="Resources\Icons\MenuIcon\Test.png" />
     <None Remove="Resources\Icons\user.png" />
     <None Remove="Resources\Images\Group.png" />
     <None Remove="Resources\Images\menu.png" />
     <None Remove="Resources\Images\reconstruktion.png" />
+    <None Remove="Resources\Images\rightArrow.png" />
     <None Remove="Resources\Images\star.png" />
   </ItemGroup>
 
@@ -37,20 +39,18 @@
   <ItemGroup>
     <Resource Include="Resources\Icons\ArrowUserButton.png" />
     <Resource Include="Resources\Icons\bell.png" />
-    <Resource Include="Resources\Icons\best.png" />
-    <Resource Include="Resources\Icons\books.png" />
-    <Resource Include="Resources\Icons\chat.png" />
-    <Resource Include="Resources\Icons\home.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Icons\setting.png" />
-    <Resource Include="Resources\Icons\test.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="Resources\Icons\MenuIcon\Grades.png" />
+    <Resource Include="Resources\Icons\MenuIcon\GradesList.png" />
+    <Resource Include="Resources\Icons\MenuIcon\HomeWork.png" />
+    <Resource Include="Resources\Icons\MenuIcon\Main.png" />
+    <Resource Include="Resources\Icons\MenuIcon\Chat.png" />
+    <Resource Include="Resources\Icons\MenuIcon\Setting.png" />
+    <Resource Include="Resources\Icons\MenuIcon\Test.png" />
     <Resource Include="Resources\Icons\user.png" />
     <Resource Include="Resources\Images\Group.png" />
     <Resource Include="Resources\Images\menu.png" />
     <Resource Include="Resources\Images\reconstruktion.png" />
+    <Resource Include="Resources\Images\rightArrow.png" />
     <Resource Include="Resources\Images\star.png" />
   </ItemGroup>
 

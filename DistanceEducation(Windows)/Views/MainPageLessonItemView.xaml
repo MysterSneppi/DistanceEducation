@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="DistanceEducation_Windows_.Views.MainPageLessonItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DistanceEducation_Windows_.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Button  Width="444"
+            Height="84"
+             Margin="0,0,0,8">
+        <Button.Template>
+            <ControlTemplate TargetType="{x:Type Button}">
+                <Grid>
+                    <Border  Background="#FFFFFF"
+                             CornerRadius="16">
+                        <Border.Effect>
+                            <DropShadowEffect Color="#E3E6EC"  
+                                  ShadowDepth="1"/>
+                        </Border.Effect>
+                    </Border>
+                    <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center"/>
+                </Grid>
+            </ControlTemplate>
+        </Button.Template>
+
+        <DockPanel LastChildFill="False" VerticalAlignment="Center">
+            <Border DockPanel.Dock="Left"
+                    CornerRadius="16"
+                    Background="#FFA2C0"
+                    Width="56"
+                    Height="56"
+                    Margin="24,0,24,0">
+                
+            </Border>
+            <StackPanel DockPanel.Dock="Left">
+                <Label Content="Математика"
+                       FontSize="16"
+                       FontWeight="Bold"/>
+                <Label Content="Иван Петрович" 
+                       FontSize="13"
+                       Foreground="Gray"
+                       Margin="0,-10,0,0"/>
+            </StackPanel>
+            <Image DockPanel.Dock="Right"
+                   Source="/Resources/Images/rightArrow.png"
+                   Width="24"
+                   Height="24"
+                   Margin="0,0,24,0"/>
+           
+        </DockPanel>
+        
+    </Button>
+</UserControl>

@@ -25,7 +25,8 @@
                                            Width="24"
                                            Height="24"
                                            Margin="15,0,10,0"
-                                           HorizontalAlignment="Center"/>
+                                           HorizontalAlignment="Center"
+                                           />
 
                                     <TextBlock Text="{TemplateBinding Property=Content}"
                                        VerticalAlignment="Center"                                     

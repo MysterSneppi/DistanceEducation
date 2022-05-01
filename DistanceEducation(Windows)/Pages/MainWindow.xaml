@@ -7,7 +7,8 @@
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
         mc:Ignorable="d"
-        Title="DistanceEducation" Height="700" Width="1200" Background="#FDFDFD">
+        Title="DistanceEducation" Height="700" Width="1200" Background="#FDFDFD"
+        WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
         <viewModel:MainWindowViewModel/>
@@ -45,50 +46,50 @@
 
                     <!--Menu-->
                     <StackPanel Grid.Row="1">
-                        <RadioButton Tag="/Resources/Icons/home.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/Main.png"
                                      Content="{x:Static language:Lang.Main}"
                                      Style="{StaticResource MenuButtonTheme}"                                      
                                      IsChecked="True"
                                      Command="{Binding MainPageCommand}"
                             >
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/books.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/HomeWork.png"
                                      Content="{x:Static language:Lang.HomeWork}" 
                                      Style="{StaticResource MenuButtonTheme}" 
                                      Command="{Binding HomeWorkPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/books.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/HomeWork.png"
                                      Content="{x:Static language:Lang.Lesson}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding LessonPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/chat.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/Chat.png"
                                      Content="{x:Static language:Lang.Chats}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding ChatsPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/test.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/Test.png"
                                      Content="{x:Static language:Lang.Tests}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding TestsPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/best.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/Grades.png"
                                      Content="{x:Static language:Lang.Grades}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding GradesPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/best.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/GradesList.png"
                                      Content="{x:Static language:Lang.GradesList}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding GradesListPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/setting.png"
+                        <RadioButton Tag="/Resources/Icons/MenuIcon/Setting.png"
                                      Content="{x:Static language:Lang.Settings}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding SettingsPageCommand}">

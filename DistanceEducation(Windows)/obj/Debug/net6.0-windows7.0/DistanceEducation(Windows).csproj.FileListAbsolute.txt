@@ -46,3 +46,7 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\GeneratedInternalTypeHelper.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageChatItemView.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageChatItemView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageLessonItemView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageLessonItemView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselView.baml

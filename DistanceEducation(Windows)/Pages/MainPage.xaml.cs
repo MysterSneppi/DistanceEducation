@@ -9,5 +9,10 @@
         {
             InitializeComponent();
         }
+
+        private void MainPageLessonItemView_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

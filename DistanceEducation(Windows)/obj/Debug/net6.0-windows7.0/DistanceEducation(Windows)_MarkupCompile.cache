@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
-10-1789329668
+121586774950
 
-18-115180247
+201333591134
 204-1691838571
-Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Views\MainPageChatItemView.xaml;
+Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Views\ImageCarouselView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;
 
 False
 
