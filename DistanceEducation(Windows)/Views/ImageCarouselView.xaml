@@ -11,7 +11,50 @@
                 Height="380"
                 Background="#2F3CED"
                 CornerRadius="24">
+
+            <Grid Margin="40">
+                <Grid.RowDefinitions>
+                    <!--Content-->
+                    <RowDefinition Height="0.9*"/>
+                    <!--MiniButton-->
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <!--Image-->
+                    <ColumnDefinition/>
+                    <!--Text-->
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="/Resources/Images/ImageCarousel.png"
+                       Width="340"
+                       Height="340"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Grid.Column="0"
+                       Grid.Row="0"/>
+                <StackPanel Grid.Row="0"
+                            Grid.Column="1"
+                            HorizontalAlignment="Center">
+                    <TextBlock Text="Мы получили много крутых отзывов"
+                           FontSize="24"
+                           Foreground="White"
+                           TextWrapping="Wrap"
+                               FontWeight="Bold"
+                               Margin="0,0,40,0"/>
+                    <TextBlock Text="Благодарим всех кто использует нашу програму для обучения и оставляет класные отзывы."
+                               FontSize="14"
+                               Foreground="White"
+                               TextWrapping="Wrap"
+                               Margin="0,8,40,0"/>
+
+                </StackPanel>
+
+            </Grid>
+
             
+
         </Border>
     </Grid>
 </UserControl>

@@ -7,7 +7,7 @@
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
         mc:Ignorable="d"
-        Title="DistanceEducation" Height="700" Width="1200" Background="#FDFDFD"
+        Title="DistanceEducation" Height="800" Width="1400" Background="#FDFDFD"
         WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
@@ -28,9 +28,9 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <!--NameApp-->
-                        <RowDefinition Height="0.2*"/>
+                        <RowDefinition Height="0.15*"/>
                         <!--Menu-->
-                        <RowDefinition Height="0.7*"/>
+                        <RowDefinition Height="0.75*"/>
                         <!--Account-->
                         <RowDefinition Height="0.1*"/>
                     </Grid.RowDefinitions>
@@ -137,8 +137,9 @@
         <!--Content-->
         <Grid Grid.Column="1" Margin="10,0,0,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.2*"/>
-                <RowDefinition Height="0.8*"/>
+                <RowDefinition Height="0.15*"/>
+                <RowDefinition Height="0.75*"/>
+                
             </Grid.RowDefinitions>
 
             <!--Header-->
@@ -153,7 +154,8 @@
                            FontSize="40"
                            FontWeight="Bold"
                            VerticalAlignment="Center"
-                           Grid.Column="0"/>
+                           Grid.Column="0"
+                           Margin="30,0,0,0"/>
 
                     <DockPanel Grid.Column="1" 
                                LastChildFill="False"

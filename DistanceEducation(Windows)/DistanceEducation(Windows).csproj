@@ -20,6 +20,7 @@
     <None Remove="Resources\Icons\MenuIcon\Test.png" />
     <None Remove="Resources\Icons\user.png" />
     <None Remove="Resources\Images\Group.png" />
+    <None Remove="Resources\Images\ImageCarousel.png" />
     <None Remove="Resources\Images\menu.png" />
     <None Remove="Resources\Images\reconstruktion.png" />
     <None Remove="Resources\Images\rightArrow.png" />
@@ -48,6 +49,7 @@
     <Resource Include="Resources\Icons\MenuIcon\Test.png" />
     <Resource Include="Resources\Icons\user.png" />
     <Resource Include="Resources\Images\Group.png" />
+    <Resource Include="Resources\Images\ImageCarousel.png" />
     <Resource Include="Resources\Images\menu.png" />
     <Resource Include="Resources\Images\reconstruktion.png" />
     <Resource Include="Resources\Images\rightArrow.png" />
