@@ -33,7 +33,7 @@
                         <WrapPanel Orientation="Horizontal"  />
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
-                <view:MainPageChatItemView />
+                <view:MainPageChatItemView/>
                 <view:MainPageChatItemView/>
                 <view:MainPageChatItemView/>
                 
@@ -42,7 +42,7 @@
         </Grid>
         <!--Right-->
         <Grid Grid.Column="1" 
-              Margin="24,0,38,15"
+              Margin="24,20,38,45"
               Background="#F5FBFF">
 
             <Grid.RowDefinitions>

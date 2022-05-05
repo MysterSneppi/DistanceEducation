@@ -50,3 +50,8 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\MainPageLessonItemView.baml
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselView.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Resources\Themes\LightTheme.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\HomeWorkListView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\HomeWorkListView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\HomeWorkListItemView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\HomeWorkListItemView.baml

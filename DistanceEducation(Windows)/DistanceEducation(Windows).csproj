@@ -10,6 +10,9 @@
 
   <ItemGroup>
     <None Remove="Resources\Icons\ArrowUserButton.png" />
+    <None Remove="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
+    <None Remove="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
+    <None Remove="Resources\Icons\AuxiliaryIcons\StatusTrue.png" />
     <None Remove="Resources\Icons\bell.png" />
     <None Remove="Resources\Icons\MenuIcon\Chat.png" />
     <None Remove="Resources\Icons\MenuIcon\Grades.png" />
@@ -28,8 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Resources\Themes\" />
+    <Folder Include="Resources\Styles\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +41,9 @@
 
   <ItemGroup>
     <Resource Include="Resources\Icons\ArrowUserButton.png" />
+    <Resource Include="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
+    <Resource Include="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
+    <Resource Include="Resources\Icons\AuxiliaryIcons\StatusTrue.png" />
     <Resource Include="Resources\Icons\bell.png" />
     <Resource Include="Resources\Icons\MenuIcon\Grades.png" />
     <Resource Include="Resources\Icons\MenuIcon\GradesList.png" />

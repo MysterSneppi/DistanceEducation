@@ -54,7 +54,7 @@ namespace DistanceEducation_Windows_.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);V1.0.0.0;component/pages/gradeslistpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);component/pages/gradeslistpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\GradesListPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -31,6 +31,12 @@
     <Compile Update="Pages\TestsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\HomeWorkListItemView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HomeWorkListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ImageCarouselView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +73,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\TestsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Themes\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HomeWorkListItemView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HomeWorkListView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ImageCarouselView.xaml">
