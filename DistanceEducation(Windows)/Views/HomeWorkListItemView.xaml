@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:DistanceEducation_Windows_.Views" xmlns:viewmodels="clr-namespace:DistanceEducation_Windows_.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="1100">
-    <Grid Width="1098" Height="79" >
+    <Border BorderBrush="#EAEEF4" BorderThickness="0,0,0,1">
+        <Grid Width="1098" Height="65">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.05*"/>
             <ColumnDefinition Width="0.2*"/>
@@ -17,9 +18,10 @@
         
         <Image Width="30" Height="30" Source="/Resources/Icons/AuxiliaryIcons/StatusGray.png" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         
-        <TextBlock Text="{Binding Date}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="Gray"/>
-        <TextBlock Text="{Binding Exercise}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16" Foreground="Gray" Grid.Column="2" />
-        <TextBlock Text="{Binding Subject}"  Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="Gray"/>
-        <TextBlock Text="Ред."  Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="Gray"/>
+        <TextBlock Text="{Binding Date}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>
+        <TextBlock Text="{Binding Exercise}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16" Foreground="Black" Grid.Column="2" />
+        <TextBlock Text="{Binding Subject}"  Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>
+        <TextBlock Text="Ред."  Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>
     </Grid>
+    </Border>
 </UserControl>

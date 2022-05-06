@@ -21,6 +21,11 @@
     <None Remove="Resources\Icons\MenuIcon\Main.png" />
     <None Remove="Resources\Icons\MenuIcon\Setting.png" />
     <None Remove="Resources\Icons\MenuIcon\Test.png" />
+    <None Remove="Resources\Icons\ScoolSubjectIcon\Biology.png" />
+    <None Remove="Resources\Icons\ScoolSubjectIcon\Chemestry.png" />
+    <None Remove="Resources\Icons\ScoolSubjectIcon\Economic.png" />
+    <None Remove="Resources\Icons\ScoolSubjectIcon\Mathematic.png" />
+    <None Remove="Resources\Icons\ScoolSubjectIcon\Physic.png" />
     <None Remove="Resources\Icons\user.png" />
     <None Remove="Resources\Images\Group.png" />
     <None Remove="Resources\Images\ImageCarousel.png" />
@@ -52,6 +57,13 @@
     <Resource Include="Resources\Icons\MenuIcon\Chat.png" />
     <Resource Include="Resources\Icons\MenuIcon\Setting.png" />
     <Resource Include="Resources\Icons\MenuIcon\Test.png" />
+    <Resource Include="Resources\Icons\ScoolSubjectIcon\Biology.png" />
+    <Resource Include="Resources\Icons\ScoolSubjectIcon\Chemestry.png" />
+    <Resource Include="Resources\Icons\ScoolSubjectIcon\Economic.png" />
+    <Resource Include="Resources\Icons\ScoolSubjectIcon\Mathematic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\ScoolSubjectIcon\Physic.png" />
     <Resource Include="Resources\Icons\user.png" />
     <Resource Include="Resources\Images\Group.png" />
     <Resource Include="Resources\Images\ImageCarousel.png" />

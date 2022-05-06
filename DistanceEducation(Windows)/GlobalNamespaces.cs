@@ -16,3 +16,4 @@ global using DistanceEducation_Windows_.Core;
 global using DistanceEducation_Windows_.Pages;
 global using DistanceEducation_Windows_.ViewModels;
 global using DistanceEducation_Windows_.Resources;
+global using DistanceEducation_Windows_.Views;

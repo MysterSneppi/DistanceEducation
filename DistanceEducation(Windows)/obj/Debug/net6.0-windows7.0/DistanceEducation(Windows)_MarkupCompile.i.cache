@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
 15-463523138
 
-26-648629436
+27-1079530477
 204-1691838571
 Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Resources\Themes\LightTheme.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;
 
-True
+False
 

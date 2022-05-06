@@ -41,14 +41,6 @@ namespace DistanceEducation_Windows_.Views
             set { SetValue(SubjectProperty, value); }
         }
 
-        
-
-
-        
-       
-        
-        
-        
         public HomeWorkListItemView()
         {
             InitializeComponent();

@@ -66,15 +66,10 @@
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
                 
-                <view:MainPageLessonItemView/>
-                <view:MainPageLessonItemView/>
-                <view:MainPageLessonItemView/>
-                <view:MainPageLessonItemView/>
-                <view:MainPageLessonItemView/>
-                    <view:MainPageLessonItemView/>
-                    <view:MainPageLessonItemView/>
-                    <view:MainPageLessonItemView/>
-                <view:MainPageLessonItemView/>
+                <view:MainPageLessonItemView Subject="Математика" 
+                                             NameTeacher="Грегор Иллич"
+                                             Image="\Resources\Icons\ScoolSubjectIcon\Mathematic.png"/>
+              
             </ItemsControl>
             </ScrollViewer>
         </Grid>
