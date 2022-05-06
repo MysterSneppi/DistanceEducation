@@ -5,8 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
       xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
+      xmlns:viewmodel="clr-namespace:DistanceEducation_Windows_.ViewModels"
       mc:Ignorable="d" 
       d:DesignHeight="700" d:DesignWidth="1200">
+
+    <Page.DataContext>
+        <viewmodel:MainPageLessonItemListViewModel/>
+    </Page.DataContext>
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -36,9 +41,9 @@
                 <view:MainPageChatItemView/>
                 <view:MainPageChatItemView/>
                 <view:MainPageChatItemView/>
-                
+
             </ItemsControl>
-            
+
         </Grid>
         <!--Right-->
         <Grid Grid.Column="1" 
@@ -46,31 +51,30 @@
               Background="#F5FBFF">
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.1*"/>
-                <RowDefinition Height="0.9*"/>
+                <RowDefinition Height="64*"/>
+                <RowDefinition Height="103*"/>
+                <RowDefinition Height="469*"/>
             </Grid.RowDefinitions>
-            
-            
+
+
             <Label Content="Занятия сегодня:"
                    FontSize="18"
                    FontWeight="Bold"
                    Grid.Row="0"
-                   Margin="24,0,0,0"/>
-            
+                   Margin="24,0,0,102" Grid.RowSpan="2"/>
+
             <ScrollViewer VerticalScrollBarVisibility="Hidden" 
-                          Grid.Row="1">
-                <ItemsControl Grid.Row="1">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel Orientation="Vertical"  />
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                
-                <view:MainPageLessonItemView Subject="Математика" 
-                                             NameTeacher="Грегор Иллич"
-                                             Image="\Resources\Icons\ScoolSubjectIcon\Mathematic.png"/>
-              
-            </ItemsControl>
+                          Grid.Row="1" Grid.RowSpan="2">
+                <ItemsControl Grid.Row="1" ItemsSource="{Binding items}" >
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Vertical"  />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+
+
+                </ItemsControl>
             </ScrollViewer>
         </Grid>
 

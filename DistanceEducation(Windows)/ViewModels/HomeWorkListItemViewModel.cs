@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DistanceEducation_Windows_.Views;
-namespace DistanceEducation_Windows_.ViewModels
+﻿namespace DistanceEducation_Windows_.ViewModels
 {
     internal class HomeWorkListItemViewModel : ObservableObjects
     {
@@ -21,18 +15,16 @@ namespace DistanceEducation_Windows_.ViewModels
                 OnPropertyChanged();
             }
         }
-
-        public HomeWorkListItemViewModel() { 
+        public HomeWorkListItemViewModel()
+        {
             items = new List<HomeWorkListItemView>();
-            for (int i=0;i<5;i++) {
+            for (int i = 0; i < 5; i++)
+            {
                 items.Add(new HomeWorkListItemView() { Date = "10.0.0", Exercise = "Номер 15", Subject = "Математика" });
                 items.Add(new HomeWorkListItemView() { Date = "20.0.0", Exercise = "Параграф 12", Subject = "География" });
                 items.Add(new HomeWorkListItemView() { Date = "30.0.0", Exercise = "Разрезать Максима ", Subject = "Биология" });
             }
             NumberOfTasks = items.Count();
         }
-
-
-
-}
+    }
 }

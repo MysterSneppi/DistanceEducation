@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="DistanceEducation_Windows_.Views.UserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DistanceEducation_Windows_.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Width="256" Height="96">
+        <RadioButton Grid.Row="2" 
+                                 Style="{StaticResource AccountButton}">
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "/Resources/Icons/user.png"
+                                           Width="40"
+                                           Height="40"
+                                           Margin="0,0,10,0"
+                                           HorizontalAlignment="Center"
+                                           />
+                <StackPanel Orientation="Vertical" >
+                    <Label Content="Имя ученика"
+                                       FontSize="14"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"/>
+                    <Label Content="Класс/Группа"
+                                       FontSize="13"
+                                       Foreground="Gray"
+                                       Margin="0,-10,0,0"/>
+                </StackPanel>
+
+
+                <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "/Resources/Icons/ArrowUserButton.png"
+                                           Width="24"
+                                           
+                                           
+                                           HorizontalAlignment="Center"/>
+
+            </StackPanel>
+
+        </RadioButton>
+    </Grid>
+</UserControl>

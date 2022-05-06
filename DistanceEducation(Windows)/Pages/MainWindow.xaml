@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
+        xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
         mc:Ignorable="d"
         Title="DistanceEducation" Height="800" Width="1400" Background="#FDFDFD"
         WindowStartupLocation="CenterScreen">
@@ -98,39 +99,7 @@
                     </StackPanel>
 
                     <!--AccountButton-->
-                    <RadioButton Grid.Row="2" 
-                                 Style="{StaticResource AccountButton}">
-
-                        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                            <Image RenderOptions.BitmapScalingMode="HighQuality" 
-                                           Source = "/Resources/Icons/user.png"
-                                           Width="40"
-                                           Height="40"
-                                           Margin="0,0,10,0"
-                                           HorizontalAlignment="Center"
-                                           />
-                            <StackPanel Orientation="Vertical" >
-                                <Label Content="Имя ученика"
-                                       FontSize="14"
-                                       FontWeight="Bold"
-                                       Margin="0,0,0,0"/>
-                                <Label Content="Класс/Группа"
-                                       FontSize="13"
-                                       Foreground="Gray"
-                                       Margin="0,-10,0,0"/>
-                            </StackPanel>
-
-
-                            <Image RenderOptions.BitmapScalingMode="HighQuality" 
-                                           Source = "/Resources/Icons/ArrowUserButton.png"
-                                           Width="24"
-                                           
-                                           
-                                           HorizontalAlignment="Center"/>
-
-                        </StackPanel>
-
-                    </RadioButton>
+                    <view:UserView Grid.Row="2"/>
                 </Grid>
             </Border>
         </Grid>
