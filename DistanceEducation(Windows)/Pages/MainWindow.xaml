@@ -47,14 +47,14 @@
 
                     <!--Menu-->
                     <StackPanel Grid.Row="1">
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/Main.png"
+                        <RadioButton Tag="{StaticResource MainImage}"
                                      Content="{x:Static language:Lang.Main}"
                                      Style="{StaticResource MenuButtonTheme}"                                      
                                      IsChecked="True"
                                      Command="{Binding MainPageCommand}"
                             >
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/HomeWork.png"
+                        <RadioButton Tag="{StaticResource HomeWorkImage}"
                                      Content="{x:Static language:Lang.HomeWork}" 
                                      Style="{StaticResource MenuButtonTheme}" 
                                      Command="{Binding HomeWorkPageCommand}">

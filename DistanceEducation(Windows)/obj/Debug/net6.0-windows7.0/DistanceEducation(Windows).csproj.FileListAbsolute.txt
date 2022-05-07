@@ -57,3 +57,12 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\HomeWorkListItemView.baml
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\UserView.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\UserView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Converters.Wpf.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Core.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Css.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Dom.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Model.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Rendering.Gdi.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Rendering.Wpf.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\SharpVectors.Runtime.Wpf.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Resources\Styles\Styles.baml

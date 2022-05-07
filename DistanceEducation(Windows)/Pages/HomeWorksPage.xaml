@@ -9,7 +9,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="HomeWorksPage">
 
-    <Grid>
+    <Grid Margin="34,0,0,0">
         <view:HomeWorkListView HorizontalAlignment="Left"/>
     </Grid>
 </Page>

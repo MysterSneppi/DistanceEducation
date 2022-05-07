@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[5.15.4, )"
             },
+            "SharpVectors": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
             "System.Resources.ResourceManager": {
               "target": "Package",
               "version": "[4.3.0, )"

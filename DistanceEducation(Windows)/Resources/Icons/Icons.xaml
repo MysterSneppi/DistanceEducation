@@ -1,0 +1,143 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Grades-->
+    <DrawingImage x:Key="GradesImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M17,12.899L17,22 12,19 7,22 7,12.898">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M12,15C15.866,15 19,11.866 19,8 19,4.13401 15.866,1 12,1 8.13401,1 5,4.13401 5,8 5,11.866 8.13401,15 12,15z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <!--GradesList-->
+    <DrawingImage x:Key="GradesListImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M12.4286,19.2857L3,19.2857 3,3 18.4286,3 18.4286,9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M21,14.6786L21,21 18.4286,20.1429 15.8572,21 15.8572,14.6786">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M18.4286,15.8571C20.3221,15.8571 21.8571,14.3221 21.8571,12.4286 21.8571,10.535 20.3221,9 18.4286,9 16.535,9 15,10.535 15,12.4286 15,14.3221 16.535,15.8571 18.4286,15.8571z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M6.42847,7.28571L14.1428,7.28571">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M6.42847,10.7143L11.5713,10.7143">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M6.42847,14.1429L11.5713,14.1429">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <!--Main-->
+    <DrawingImage x:Key="MainImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M7.24487,14.7815L10.238,10.8913 13.6522,13.5732 16.5813,9.79291">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="1.9222" RadiusY="1.9222" Center="19.9954,4.2002" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M14.9245,3.12013L7.65679,3.12013C4.64535,3.12013,2.77808,5.25286,2.77808,8.2643L2.77808,16.3467C2.77808,19.3581,4.60874,21.4817,7.65679,21.4817L16.2609,21.4817C19.2724,21.4817,21.1396,19.3581,21.1396,16.3467L21.1396,9.30778">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <!--Settings-->
+    <DrawingImage x:Key="SettinsImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V22 H20 V0 H0 Z">
+                <DrawingGroup Opacity="0.40000000596046448">
+                    <GeometryDrawing Geometry="F0 M20,22z M0,0z M18.8067,6.62361L18.1842,5.54352C17.6577,4.6296,16.4907,4.31432,15.5755,4.83872L15.5755,4.83872C15.1399,5.09534 14.6201,5.16815 14.1307,5.04109 13.6413,4.91402 13.2226,4.59752 12.9668,4.16137 12.8023,3.88415 12.7139,3.56839 12.7105,3.24604L12.7105,3.24604C12.7254,2.72922 12.5304,2.2284 12.17,1.85767 11.8096,1.48694 11.3145,1.27786 10.7975,1.27808L9.5435,1.27808C9.03697,1.27807 8.55131,1.47991 8.194,1.83895 7.83669,2.19798 7.63717,2.68459 7.63961,3.19112L7.63961,3.19112C7.6246,4.23693 6.77248,5.07681 5.72657,5.0767 5.40421,5.07336 5.08846,4.98494 4.81123,4.82041L4.81123,4.82041C3.89606,4.29601,2.72911,4.61129,2.20254,5.52522L1.53435,6.62361C1.00841,7.53639,1.3194,8.70261,2.23,9.23231L2.23,9.23231C2.8219,9.57404 3.18653,10.2056 3.18653,10.8891 3.18653,11.5725 2.8219,12.2041 2.23,12.5458L2.23,12.5458C1.32056,13.0719,1.00923,14.2353,1.53435,15.1454L1.53435,15.1454 2.16593,16.2346C2.41265,16.6798 2.8266,17.0083 3.31619,17.1474 3.80578,17.2866 4.33064,17.2249 4.77462,16.976L4.77462,16.976C5.21108,16.7213 5.73119,16.6516 6.21934,16.7822 6.70749,16.9128 7.12324,17.233 7.37416,17.6717 7.5387,17.9489 7.62711,18.2646 7.63046,18.587L7.63046,18.587C7.63046,19.6435,8.48696,20.5,9.5435,20.5L10.7975,20.5C11.8505,20.5001,12.7055,19.6491,12.7105,18.5962L12.7105,18.5962C12.7081,18.088 12.9089,17.6 13.2682,17.2407 13.6275,16.8814 14.1155,16.6807 14.6236,16.6831 14.9452,16.6917 15.2596,16.7798 15.5389,16.9394L15.5389,16.9394C16.4517,17.4653,17.6179,17.1544,18.1476,16.2438L18.1476,16.2438 18.8067,15.1454C19.0618,14.7075 19.1318,14.186 19.0012,13.6964 18.8706,13.2067 18.5502,12.7894 18.111,12.5367L18.111,12.5367C17.6718,12.284 17.3514,11.8666 17.2208,11.3769 17.0902,10.8873 17.1603,10.3658 17.4154,9.92796 17.5812,9.63834 17.8214,9.3982 18.111,9.23231L18.111,9.23231C19.0161,8.70289,19.3264,7.54349,18.8067,6.63277L18.8067,6.63277 18.8067,6.62361z">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF1B1D21" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing>
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF1B1D21" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <EllipseGeometry RadiusX="2.6362" RadiusY="2.6362" Center="10.175,10.8891" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <!--HomeWork-->
+    <DrawingImage x:Key="HomeWorkImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Brush="#FFAAAAAA" Geometry="F0 M24,24z M0,0z M16.8001,5.75999L11.0401,5.75999C10.775,5.75999,10.5601,5.9749,10.5601,6.23999L10.5601,10.08C10.5601,10.3451,10.775,10.56,11.0401,10.56L16.8001,10.56C17.0652,10.56,17.2801,10.3451,17.2801,10.08L17.2801,6.23999C17.2801,5.9749,17.0652,5.75999,16.8001,5.75999z M16.3201,9.6L11.5201,9.6 11.5201,6.72 16.3201,6.72 16.3201,9.6z" />
+                <GeometryDrawing Brush="#FFAAAAAA" Geometry="F1 M24,24z M0,0z M11.5201,9.6L11.2701,9.6C11.2701,9.73807,11.382,9.85,11.5201,9.85L11.5201,9.6z M16.3201,9.6L16.3201,9.85C16.4581,9.85,16.5701,9.73807,16.5701,9.6L16.3201,9.6z M11.5201,6.72L11.5201,6.47C11.382,6.47,11.2701,6.58192,11.2701,6.72L11.5201,6.72z M16.3201,6.72L16.5701,6.72C16.5701,6.58192,16.4581,6.47,16.3201,6.47L16.3201,6.72z M11.0401,6.00999L16.8001,6.00999 16.8001,5.50999 11.0401,5.50999 11.0401,6.00999z M10.8101,6.23999C10.8101,6.11297,10.913,6.00999,11.0401,6.00999L11.0401,5.50999C10.6369,5.50999,10.3101,5.83683,10.3101,6.23999L10.8101,6.23999z M10.8101,10.08L10.8101,6.23999 10.3101,6.23999 10.3101,10.08 10.8101,10.08z M11.0401,10.31C10.913,10.31,10.8101,10.207,10.8101,10.08L10.3101,10.08C10.3101,10.4832,10.6369,10.81,11.0401,10.81L11.0401,10.31z M16.8001,10.31L11.0401,10.31 11.0401,10.81 16.8001,10.81 16.8001,10.31z M17.0301,10.08C17.0301,10.207,16.9271,10.31,16.8001,10.31L16.8001,10.81C17.2032,10.81,17.5301,10.4832,17.5301,10.08L17.0301,10.08z M17.0301,6.23999L17.0301,10.08 17.5301,10.08 17.5301,6.23999 17.0301,6.23999z M16.8001,6.00999C16.9271,6.00999,17.0301,6.11297,17.0301,6.23999L17.5301,6.23999C17.5301,5.83683,17.2032,5.50999,16.8001,5.50999L16.8001,6.00999z M11.5201,9.85L16.3201,9.85 16.3201,9.35 11.5201,9.35 11.5201,9.85z M11.2701,6.72L11.2701,9.6 11.7701,9.6 11.7701,6.72 11.2701,6.72z M16.3201,6.47L11.5201,6.47 11.5201,6.97 16.3201,6.97 16.3201,6.47z M16.5701,9.6L16.5701,6.72 16.0701,6.72 16.0701,9.6 16.5701,9.6z" />
+                <GeometryDrawing Brush="#FFAAAAAA" Geometry="F0 M24,24z M0,0z M18.7201,1.92L5.28009,1.92C4.4848,1.92,3.84009,2.56471,3.84009,3.36L3.84009,18.72C3.84009,20.5757,5.34441,22.08,7.20009,22.08L16.8001,22.08C18.6558,22.08,20.1601,20.5757,20.1601,18.72L20.1601,3.36C20.1601,2.56471,19.5154,1.92,18.7201,1.92z M7.68009,2.88L5.28009,2.88C5.01499,2.88,4.80009,3.0949,4.80009,3.36L4.80009,18.72C4.80009,20.0455,5.8746,21.12,7.20009,21.12L7.68009,21.12 7.68009,2.88z M8.64009,2.88L8.64009,21.12 16.8001,21.12C18.1256,21.12,19.2001,20.0455,19.2001,18.72L19.2001,3.36C19.2001,3.0949,18.9852,2.88,18.7201,2.88L8.64009,2.88z" />
+                <GeometryDrawing Brush="#FFAAAAAA" Geometry="F1 M24,24z M0,0z M7.68009,2.88L7.93009,2.88C7.93009,2.74193,7.81816,2.63,7.68009,2.63L7.68009,2.88z M7.68009,21.12L7.68009,21.37C7.81816,21.37,7.93009,21.2581,7.93009,21.12L7.68009,21.12z M8.64009,21.12L8.39009,21.12C8.39009,21.2581,8.50202,21.37,8.64009,21.37L8.64009,21.12z M8.64009,2.88L8.64009,2.63C8.50202,2.63,8.39009,2.74193,8.39009,2.88L8.64009,2.88z M5.28009,2.17L18.7201,2.17 18.7201,1.67 5.28009,1.67 5.28009,2.17z M4.09009,3.36C4.09009,2.70278,4.62287,2.17,5.28009,2.17L5.28009,1.67C4.34673,1.67,3.59009,2.42664,3.59009,3.36L4.09009,3.36z M4.09009,18.72L4.09009,3.36 3.59009,3.36 3.59009,18.72 4.09009,18.72z M7.20009,21.83C5.48248,21.83,4.09009,20.4376,4.09009,18.72L3.59009,18.72C3.59009,20.7137,5.20634,22.33,7.20009,22.33L7.20009,21.83z M16.8001,21.83L7.20009,21.83 7.20009,22.33 16.8001,22.33 16.8001,21.83z M19.9101,18.72C19.9101,20.4376,18.5177,21.83,16.8001,21.83L16.8001,22.33C18.7938,22.33,20.4101,20.7137,20.4101,18.72L19.9101,18.72z M19.9101,3.36L19.9101,18.72 20.4101,18.72 20.4101,3.36 19.9101,3.36z M18.7201,2.17C19.3773,2.17,19.9101,2.70278,19.9101,3.36L20.4101,3.36C20.4101,2.42664,19.6534,1.67,18.7201,1.67L18.7201,2.17z M5.28009,3.13L7.68009,3.13 7.68009,2.63 5.28009,2.63 5.28009,3.13z M5.05009,3.36C5.05009,3.23297,5.15306,3.13,5.28009,3.13L5.28009,2.63C4.87692,2.63,4.55009,2.95683,4.55009,3.36L5.05009,3.36z M5.05009,18.72L5.05009,3.36 4.55009,3.36 4.55009,18.72 5.05009,18.72z M7.20009,20.87C6.01268,20.87,5.05009,19.9074,5.05009,18.72L4.55009,18.72C4.55009,20.1836,5.73653,21.37,7.20009,21.37L7.20009,20.87z M7.68009,20.87L7.20009,20.87 7.20009,21.37 7.68009,21.37 7.68009,20.87z M7.43009,2.88L7.43009,21.12 7.93009,21.12 7.93009,2.88 7.43009,2.88z M8.89009,21.12L8.89009,2.88 8.39009,2.88 8.39009,21.12 8.89009,21.12z M16.8001,20.87L8.64009,20.87 8.64009,21.37 16.8001,21.37 16.8001,20.87z M18.9501,18.72C18.9501,19.9074,17.9875,20.87,16.8001,20.87L16.8001,21.37C18.2636,21.37,19.4501,20.1836,19.4501,18.72L18.9501,18.72z M18.9501,3.36L18.9501,18.72 19.4501,18.72 19.4501,3.36 18.9501,3.36z M18.7201,3.13C18.8471,3.13,18.9501,3.23297,18.9501,3.36L19.4501,3.36C19.4501,2.95683,19.1233,2.63,18.7201,2.63L18.7201,3.13z M8.64009,3.13L18.7201,3.13 18.7201,2.63 8.64009,2.63 8.64009,3.13z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <!--Test-->
+    <DrawingImage x:Key="TestImage">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M7,12L17,12">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M7,17L17,17">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M20,3L22,3 22,23 2,23 2,3 4,3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M24,24z M0,0z M7,1L7,7 10,7C10,5.895 10.895,5 12,5 13.105,5 14,5.895 14,7L17,7 17,1 7,1z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#FFA3A3A5" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="10" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+</ResourceDictionary>

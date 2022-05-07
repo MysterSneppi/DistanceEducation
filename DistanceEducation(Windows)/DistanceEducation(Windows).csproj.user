@@ -78,6 +78,12 @@
     <Page Update="Pages\TestsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\Styles\Styles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Update="Resources\Icons\Icons.xaml">
+      <SubType>Designer</SubType>
+    </Resource>
     <Page Update="Resources\Themes\LightTheme.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -9,6 +9,7 @@
       "DistanceEducation(Windows)/1.0.0": {
         "dependencies": {
           "FontAwesome.Sharp": "5.15.4",
+          "SharpVectors": "1.7.7",
           "System.Resources.ResourceManager": "4.3.0"
         },
         "runtime": {
@@ -30,6 +31,42 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "SharpVectors/1.7.7": {
+        "runtime": {
+          "lib/net5.0-windows/SharpVectors.Converters.Wpf.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Core.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Css.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Dom.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Model.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Rendering.Gdi.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Rendering.Wpf.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          },
+          "lib/net5.0-windows/SharpVectors.Runtime.Wpf.dll": {
+            "assemblyVersion": "1.7.7.0",
+            "fileVersion": "1.7.7.0"
+          }
+        }
+      },
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -119,6 +156,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "SharpVectors/1.7.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jMGVqc/HvxlDo5kSm24VdNd3yi+QaeY9ubSFcksDleBnGWXMoW/jCtAc6u3k1EzY7uKjwb/e//8fWiRZC80OHw==",
+      "path": "sharpvectors/1.7.7",
+      "hashPath": "sharpvectors.1.7.7.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",

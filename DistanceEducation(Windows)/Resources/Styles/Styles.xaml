@@ -1,0 +1,97 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+    <!--MenuButton-->
+    <Style BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}" x:Key="MenuButtonTheme" >
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RadioButton}"  x:Name="MenuButton">
+                        <Border VerticalAlignment="Stretch"
+                              HorizontalAlignment="Stretch"
+                              Background="{TemplateBinding Background}"
+                                    CornerRadius="0,10,10,0"
+                                    Margin="0,0,10,0">
+
+                            <StackPanel Orientation="Horizontal">
+                                <Image RenderOptions.BitmapScalingMode="HighQuality" 
+                                           Source = "{ Binding Tag , RelativeSource = { RelativeSource FindAncestor , AncestorType = {x:Type RadioButton }}}"
+                                           Width="24"
+                                           Height="24"
+                                           Margin="15,0,10,0"
+                                           HorizontalAlignment="Center"
+                                           />
+
+                                <TextBlock Text="{TemplateBinding Property=Content}"
+                                       VerticalAlignment="Center"                                     
+                                       Foreground="{TemplateBinding Property=Foreground}"
+                                       FontSize="20"/>
+
+                            </StackPanel>
+
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Background"  Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Height" Value="50"/>
+        </Style.Setters>
+
+
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Background" Value="#2F3CED"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Trigger>
+
+            <Trigger Property="IsMouseOver" Value="True" >
+                <Setter Property="Background" Value="#2F3CED"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--AccountButton-->
+
+    <Style BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}" x:Key="AccountButton" >
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RadioButton}"  x:Name="MenuButton">
+                        <Border 
+                              Background="{TemplateBinding Background}"
+                                    CornerRadius="10,10,10,10"
+                                    Margin="15,0,10,0">
+
+                            <ContentPresenter />
+
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Background"  Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Height" Value="50"/>
+        </Style.Setters>
+
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True" >
+                <Setter Property="BorderBrush" Value="Black"/>
+                <Setter Property="BorderThickness" Value="1"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

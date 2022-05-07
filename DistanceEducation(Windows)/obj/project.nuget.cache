@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "n7cr3ELxtcxY9vary5dISD9kNMXCdFe4H4Dd9UH47DPIQ4l8iLhBQRuGBa3vF8wrFuFJ2sT1GHGLUvsgX5sN8A==",
+  "dgSpecHash": "YkfcvQTO9cEgG63pORGs2yIMH5aNyCXIgTvp7oiBMEh5gWQmP2ZjpIhlt5uQSmTPbUve2IRynvusbbd040+S9w==",
   "success": true,
   "projectFilePath": "D:\\Git\\DistanceEducation\\DistanceEducation(Windows)\\DistanceEducation(Windows).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\fontawesome.sharp\\5.15.4\\fontawesome.sharp.5.15.4.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\aleks\\.nuget\\packages\\sharpvectors\\1.7.7\\sharpvectors.1.7.7.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",

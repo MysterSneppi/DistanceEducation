@@ -26,6 +26,7 @@
     <None Remove="Resources\Icons\ScoolSubjectIcon\Economic.png" />
     <None Remove="Resources\Icons\ScoolSubjectIcon\Mathematic.png" />
     <None Remove="Resources\Icons\ScoolSubjectIcon\Physic.png" />
+    <None Remove="Resources\Icons\Setting.svg" />
     <None Remove="Resources\Icons\user.png" />
     <None Remove="Resources\Images\Group.png" />
     <None Remove="Resources\Images\ImageCarousel.png" />
@@ -36,11 +37,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Styles\" />
+    <Page Remove="Resources\Icons\Icons.xaml" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="5.15.4" />
+    <PackageReference Include="SharpVectors" Version="1.7.7" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
   </ItemGroup>
 
@@ -50,6 +52,9 @@
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusTrue.png" />
     <Resource Include="Resources\Icons\bell.png" />
+    <Resource Include="Resources\Icons\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
     <Resource Include="Resources\Icons\MenuIcon\Grades.png" />
     <Resource Include="Resources\Icons\MenuIcon\GradesList.png" />
     <Resource Include="Resources\Icons\MenuIcon\HomeWork.png" />
@@ -64,6 +69,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Icons\ScoolSubjectIcon\Physic.png" />
+    <Resource Include="Resources\Icons\Setting.svg" />
     <Resource Include="Resources\Icons\user.png" />
     <Resource Include="Resources\Images\Group.png" />
     <Resource Include="Resources\Images\ImageCarousel.png" />
