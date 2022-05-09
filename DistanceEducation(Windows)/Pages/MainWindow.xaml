@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
         xmlns:language="clr-namespace:DistanceEducation_Windows_.Resources.Languages"
         xmlns:viewModel="clr-namespace:DistanceEducation_Windows_.ViewModels"
-        xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
+        xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"      
         mc:Ignorable="d"
         Title="DistanceEducation" Height="800" Width="1400" Background="#FDFDFD"
         WindowStartupLocation="CenterScreen">
@@ -21,6 +21,7 @@
             <ColumnDefinition Width="0.8*"/>
         </Grid.ColumnDefinitions>
 
+        
         <!--LeftMenu-->
         <Grid Grid.Column="0">
             <Border Background="White"
@@ -60,37 +61,37 @@
                                      Command="{Binding HomeWorkPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/HomeWork.png"
+                        <RadioButton Tag="{StaticResource HomeWorkImage}"
                                      Content="{x:Static language:Lang.Lesson}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding LessonPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/Chat.png"
+                        <RadioButton Tag="{StaticResource ChatImage}"
                                      Content="{x:Static language:Lang.Chats}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding ChatsPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/Test.png"
+                        <RadioButton Tag="{StaticResource TestImage}"
                                      Content="{x:Static language:Lang.Tests}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding TestsPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/Grades.png"
+                        <RadioButton Tag="{StaticResource GradesImage}"
                                      Content="{x:Static language:Lang.Grades}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding GradesPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/GradesList.png"
+                        <RadioButton Tag="{StaticResource GradesListImage}"
                                      Content="{x:Static language:Lang.GradesList}"
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding GradesListPageCommand}">
 
                         </RadioButton>
-                        <RadioButton Tag="/Resources/Icons/MenuIcon/Setting.png"
+                        <RadioButton Tag="{StaticResource SettinsImage}"
                                      Content="{x:Static language:Lang.Settings}" 
                                      Style="{StaticResource MenuButtonTheme}"
                                      Command="{Binding SettingsPageCommand}">

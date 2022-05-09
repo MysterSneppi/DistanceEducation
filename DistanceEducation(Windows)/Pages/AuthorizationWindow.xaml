@@ -1,0 +1,67 @@
+﻿<Window x:Class="DistanceEducation_Windows_.Pages.AuthorizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
+        xmlns:vm="clr-namespace:DistanceEducation_Windows_.ViewModels"
+        mc:Ignorable="d"
+        Height="700" Width="900"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Window.DataContext>
+        <vm:AuthorizationViewModel/>
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.Background>
+        <ImageBrush ImageSource="/Resources/Images/AuthBackground.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Border HorizontalAlignment="Center"
+              CornerRadius="12"
+              VerticalAlignment="Center" 
+              Background="White"
+              Width="500"
+              Height="500">
+
+            <Grid Margin="50">
+                <StackPanel Orientation="Vertical">
+                    <!--Header-->
+                    <TextBlock FontSize="18" 
+                               Text="Авторизация"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Margin="0,0,0,27"
+                               Foreground="#092C4C"/>
+                    <!--Button-->
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+                        <RadioButton Margin="0,0,9,0" FontWeight="Bold" FontSize="16" Content="Ученик" Style="{StaticResource AuthorizationButton}"/>
+                        <RadioButton Margin="9,0,0,0" FontWeight="Bold" FontSize="16" Content="Учитель" Style="{StaticResource AuthorizationButton}" />
+                    </StackPanel>
+
+                    <!--Login-->
+                    <TextBlock Text="Логин"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,7,0,12"
+                               Foreground="#092C4C"/>
+                    <TextBox x:Name="LoginBox" 
+                             Style="{StaticResource AuthorizationTextBox}"/>
+                    <!--Password-->
+                    <TextBlock Text="Пароль"
+                               FontSize="16"
+                               FontWeight="Bold" 
+                               Margin="0,24,0,12"
+                               Foreground="#092C4C"/>
+                    <PasswordBox x:Name="PasswordBox"
+                                 Style="{StaticResource PasswordBox}" />
+                </StackPanel>
+            </Grid>
+            
+        </Border>
+    </Grid>
+</Window>
