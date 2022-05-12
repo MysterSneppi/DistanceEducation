@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
-        xmlns:vm="clr-namespace:DistanceEducation_Windows_.ViewModels"
+        xmlns:vm="clr-namespace:DistanceEducation_Windows_.ViewModels" xmlns:components="clr-namespace:DistanceEducation_Windows_.Components"
         mc:Ignorable="d"
         Height="700" Width="900"
         WindowStartupLocation="CenterScreen"
@@ -25,7 +25,7 @@
               Width="500"
               Height="500">
 
-            <Grid Margin="50">
+            <Grid Margin="50,50,50,20">
                 <StackPanel Orientation="Vertical">
                     <!--Header-->
                     <TextBlock FontSize="18" 
@@ -35,13 +35,18 @@
                                VerticalAlignment="Center"
                                Margin="0,0,0,27"
                                Foreground="#092C4C"/>
-                    <!--Button-->
-                    <StackPanel Orientation="Horizontal" 
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center">
-                        <RadioButton Margin="0,0,9,0" FontWeight="Bold" FontSize="16" Content="Ученик" Style="{StaticResource AuthorizationButton}"/>
-                        <RadioButton Margin="9,0,0,0" FontWeight="Bold" FontSize="16" Content="Учитель" Style="{StaticResource AuthorizationButton}" />
-                    </StackPanel>
+                    <!--ListInstitution-->
+                    <TextBlock Text="Учебное заведение"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,7,0,12"
+                               Foreground="#092C4C"/>
+                    <ComboBox ItemsSource="{Binding ListInstitutions}"
+                              DisplayMemberPath="Name"
+                              x:Name="Institutions"
+                              SelectedItem="{Binding CurrenntSelection}"
+                              SelectedValuePath="Name"
+                              IsSynchronizedWithCurrentItem="True"/>
 
                     <!--Login-->
                     <TextBlock Text="Логин"
@@ -49,16 +54,23 @@
                                FontWeight="Bold"
                                Margin="0,7,0,12"
                                Foreground="#092C4C"/>
-                    <TextBox x:Name="LoginBox" 
-                             Style="{StaticResource AuthorizationTextBox}"/>
+                    <TextBox Text="{Binding Login ,UpdateSourceTrigger=PropertyChanged}"
+                             Style="{StaticResource AuthorizationTextBox}"
+                             />
                     <!--Password-->
                     <TextBlock Text="Пароль"
                                FontSize="16"
                                FontWeight="Bold" 
                                Margin="0,24,0,12"
                                Foreground="#092C4C"/>
-                    <PasswordBox x:Name="PasswordBox"
-                                 Style="{StaticResource PasswordBox}" />
+
+                    <components:BindablePasswordBox Password="{Binding Password}" Style="{StaticResource PasswordBox}"/>
+
+                    <!--Button-->
+                    <Button Command="{Binding SendData}" 
+                            Content="Войти"
+                            Margin="0,40,0,0"
+                            Style="{StaticResource AuthorizationButton}"/>
                 </StackPanel>
             </Grid>
             

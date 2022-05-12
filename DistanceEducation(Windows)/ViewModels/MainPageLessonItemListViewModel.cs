@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DistanceEducation_Windows_.ViewModels
 {
-    internal class MainPageLessonItemListViewModel : ObservableObjects
+    internal class MainPageLessonItemListViewModel : BaseViewModel
     {
        public List<MainPageLessonItemView> items { get; set; }
 

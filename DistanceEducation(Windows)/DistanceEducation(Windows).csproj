@@ -44,7 +44,8 @@
 
   <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="5.15.4" />
-    <PackageReference Include="Hardcodet.NotifyIcon.Wpf.NetCore" Version="1.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
     <PackageReference Include="SharpVectors" Version="1.7.7" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
   </ItemGroup>

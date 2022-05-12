@@ -1,5 +1,6 @@
 ﻿
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml;;
+FD:\Git\DistanceEducation\DistanceEducation(Windows)\Components\BindablePasswordBox.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\AuthorizationWindow.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\ChatsPage.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\GradesListPage.xaml;;
@@ -11,6 +12,7 @@ FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\MainWindow.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\SettingsPage.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\TestsPage.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Pages\Tray\TrayWindow.xaml;;
+FD:\Git\DistanceEducation\DistanceEducation(Windows)\Resources\Styles\Styles.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Views\HomeWorkListItemView.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Views\HomeWorkListView.xaml;;
 FD:\Git\DistanceEducation\DistanceEducation(Windows)\Views\ImageCarouselView.xaml;;

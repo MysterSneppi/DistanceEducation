@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
-1928539144
+20-1774928464
 
-32-1239185793
-214-517243002
-Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\UserView.xaml;
+381940767649
+214-995937358
+Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\UserView.xaml;
 
-False
+True
 

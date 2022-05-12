@@ -68,7 +68,9 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Resources\Styles\Styles.baml
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Pages\AuthorizationWindow.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Pages\AuthorizationWindow.baml
-D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\H.NotifyIcon.dll
-D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\Hardcodet.Wpf.TaskbarNotification.dll
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Pages\Tray\TrayWindow.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Pages\Tray\TrayWindow.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\Newtonsoft.Json.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\RestSharp.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Components\BindablePasswordBox.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Components\BindablePasswordBox.baml

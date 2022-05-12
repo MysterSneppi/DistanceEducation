@@ -1,6 +1,6 @@
 ﻿namespace DistanceEducation_Windows_.ViewModels
 {
-    internal class HomeWorkListItemViewModel : ObservableObjects
+    internal class HomeWorkListItemViewModel : BaseViewModel
     {
         public List<HomeWorkListItemView> items { get; set; }
 

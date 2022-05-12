@@ -1,6 +1,6 @@
 ﻿namespace DistanceEducation_Windows_.ViewModels
 {
-    internal class MainWindowViewModel : ObservableObjects
+    internal class MainWindowViewModel : BaseViewModel
     {
 
         #region Relays
