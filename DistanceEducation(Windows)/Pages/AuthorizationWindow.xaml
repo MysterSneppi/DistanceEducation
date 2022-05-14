@@ -41,12 +41,21 @@
                                FontWeight="Bold"
                                Margin="0,7,0,12"
                                Foreground="#092C4C"/>
-                    <ComboBox ItemsSource="{Binding ListInstitutions}"
+
+
+                    <Border Style="{StaticResource ListInstitutions}">
+                        <ComboBox ItemsSource="{Binding ListInstitutions}"
+                                  Margin="20,0,20,0"
                               DisplayMemberPath="Name"
                               x:Name="Institutions"
                               SelectedItem="{Binding CurrenntSelection}"
                               SelectedValuePath="Name"
-                              IsSynchronizedWithCurrentItem="True"/>
+                              IsSynchronizedWithCurrentItem="True"
+                              Style="{StaticResource  ComboBoxStyleREGISTRATION}" BorderBrush="{x:Null}" Cursor="Hand"
+                             />
+                    </Border>
+
+                    
 
                     <!--Login-->
                     <TextBlock Text="Логин"

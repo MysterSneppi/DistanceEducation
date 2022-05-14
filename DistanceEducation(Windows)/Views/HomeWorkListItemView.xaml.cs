@@ -41,6 +41,14 @@ namespace DistanceEducation_Windows_.Views
             set { SetValue(SubjectProperty, value); }
         }
 
+        public static readonly DependencyProperty StatusProperty = DependencyProperty.Register("Status", typeof(object), typeof(HomeWorkListItemView), new PropertyMetadata(0));
+        public object Status
+        {
+            get { return (object)GetValue(StatusProperty); }
+            set { SetValue(StatusProperty, value); }
+        }
+
+
         public HomeWorkListItemView()
         {
             InitializeComponent();

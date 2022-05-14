@@ -96,6 +96,9 @@
     <Page Update="Pages\Tray\TrayWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\Styles\ComboBoxRegStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Resources\Styles\Styles.xaml">
       <SubType>Designer</SubType>
     </Page>

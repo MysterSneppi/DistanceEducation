@@ -74,3 +74,4 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\RestSharp.dll
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Components\BindablePasswordBox.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Components\BindablePasswordBox.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Resources\Styles\ComboBoxRegStyle.baml

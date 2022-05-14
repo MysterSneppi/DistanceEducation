@@ -37,7 +37,7 @@
         </StackPanel>
         <!--Header-->
         <ItemsControl Grid.Row="1">
-            <view:HomeWorkListItemView Date = "Дата" Exercise = "Задание" Subject = "Предмет"/>
+            <view:HomeWorkListItemView Status="\Resources\Icons\AuxiliaryIcons\StatusGray.png" Date = "Дата" Exercise = "Задание" Subject = "Предмет"/>
         </ItemsControl >
         <!--Items-->
         <ScrollViewer VerticalScrollBarVisibility="Hidden" Grid.Row="2">

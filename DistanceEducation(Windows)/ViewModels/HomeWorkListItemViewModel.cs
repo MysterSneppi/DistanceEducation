@@ -3,7 +3,7 @@
     internal class HomeWorkListItemViewModel : BaseViewModel
     {
         public List<HomeWorkListItemView> items { get; set; }
-
+        public List<HomeWorkModel> listHomeWork { get; set; }
         private int _numberOfTasks;
 
         public int NumberOfTasks
@@ -17,14 +17,46 @@
         }
         public HomeWorkListItemViewModel()
         {
-            items = new List<HomeWorkListItemView>();
-            for (int i = 0; i < 5; i++)
+            try
             {
-                items.Add(new HomeWorkListItemView() { Date = "10.0.0", Exercise = "Номер 15", Subject = "Математика" });
-                items.Add(new HomeWorkListItemView() { Date = "20.0.0", Exercise = "Параграф 12", Subject = "География" });
-                items.Add(new HomeWorkListItemView() { Date = "30.0.0", Exercise = "Разрезать Максима ", Subject = "Биология" });
+                items = new List<HomeWorkListItemView>();
+                GetListHomeWork();
+
+                if (listHomeWork != null)
+                {
+                    foreach (var item in listHomeWork)
+                    {
+                        items.Add(new HomeWorkListItemView { Date = item.Date, Exercise = item.Exercise, Subject = item.Subject });
+                    }
+
+                    NumberOfTasks = items.Count();
+                }
+                else 
+                {
+                    MessageBox.Show("Не удалось получить список предметов");
+                }
             }
-            NumberOfTasks = items.Count();
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }           
         }
+
+        private async void GetListHomeWork()
+        {
+            try
+            {
+                listHomeWork = await GetData.GetHomeWork();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+           
+        }
+
+
     }
 }

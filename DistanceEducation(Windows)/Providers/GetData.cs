@@ -1,7 +1,7 @@
 ﻿namespace DistanceEducation_Windows_.Providers
 {
     internal class GetData
-    {
+    {       
         /// <summary>
         /// Get list Institutions
         /// </summary>
@@ -10,7 +10,7 @@
         public static async Task<List<InstitutionsModel>> GetListInstitution()
         {
             string Link = "http://testingapp.ddns.net:57000/get_institution";
-
+            
             using (var client = new RestClient(Link))
             {
                 var request = new RestRequest();
@@ -27,9 +27,36 @@
                 }
             }
         }
+        /// <summary>
+        /// GetListHomeWorks
+        /// </summary>
+        public static async Task<List<HomeWorkModel>> GetHomeWork() 
+        {
+            string Link = "";
+            int id;
+            string path = $"C:\\Users\\aleks\\data.txt";
+            using (StreamReader reader = new StreamReader(path)) 
+            {
+                string text = reader.ReadLine();
+                id = Convert.ToInt32(text);
+                MessageBox.Show(id.ToString());
+            }
 
-        
 
+            using (RestClient client = new RestClient(Link)) 
+            {
+                RestRequest request = new RestRequest();
+                var model = new { Id = id };
+                var json = JsonSerializer.Serialize(model);
+                request.AddJsonBody(json);
+                RestResponse<List<HomeWorkModel>> restResponse = await client.ExecutePostAsync<List<HomeWorkModel>>(request);
 
+                List<HomeWorkModel> list = restResponse.Data;
+                return list;
+            }
+          
+
+           
+        }
     }
 }

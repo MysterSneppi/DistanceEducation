@@ -21,7 +21,7 @@ namespace DistanceEducation_Windows_.Providers
                 var json = JsonSerializer.Serialize(data);
                 request.AddBody(json);
                 RestResponse<GetAutorizationModel> restResponse = await client.ExecutePostAsync<GetAutorizationModel>(request);
-               // var response = client.PostAsync<GetAutorizationModel>(request);
+               
 
                 
                 if (restResponse.StatusCode == System.Net.HttpStatusCode.NotFound) 
@@ -34,7 +34,7 @@ namespace DistanceEducation_Windows_.Providers
 
                     using (FileStream fstream = new FileStream($"C:\\Users\\aleks\\data.txt", FileMode.Create))
                     {
-                        string datas = model.Role.ToString() + model.Id.ToString();
+                        string datas = model.Id.ToString();
                         byte[] buffer = Encoding.Default.GetBytes(datas);
                         await fstream.WriteAsync(buffer, 0, buffer.Length);
                     }
