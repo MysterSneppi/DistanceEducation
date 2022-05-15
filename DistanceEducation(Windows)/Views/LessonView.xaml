@@ -4,21 +4,33 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DistanceEducation_Windows_.Views"
+             xmlns:vm="clr-namespace:DistanceEducation_Windows_.ViewModels"
              mc:Ignorable="d" 
              xmlns:view="clr-namespace:DistanceEducation_Windows_.Views.Buttons"
              d:DesignHeight="1000" d:DesignWidth="1200">
+
+    <UserControl.DataContext>
+        <vm:LessonViewModel/>
+    </UserControl.DataContext>
+    
+    
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.2*"/>
             <RowDefinition Height="0.8*"/>
             <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
 
-        <Border Background="Gray"/>
-        <Border Grid.Row="1" Background="Yellow"/>
-
-        <Grid Grid.Row="2">
+        <ScrollViewer VerticalScrollBarVisibility="Hidden">
+            <ItemsControl Grid.Row="0" ItemsSource="{Binding list}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+        </ScrollViewer>
+        <Grid Grid.Row="1">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.2*"/>
@@ -26,8 +38,9 @@
                 <ColumnDefinition Width="0.2*"/>
             </Grid.ColumnDefinitions>
 
-
-            <StackPanel Grid.Column="1" Orientation="Horizontal">
+            
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                
                 <view:LessonControlButton ImageWidth="30" ImageHeight="30" CornerRadius="45" HeightBorder="50" WidthBorder="50" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Icons.png" Margin="10,0,10,0" />
                 <view:LessonControlButton ImageWidth="18" ImageHeight="28" CornerRadius="45" HeightBorder="75" WidthBorder="75" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Micro.png" Margin="10,0,10,0" />
                 <view:LessonControlButton ImageWidth="45" ImageHeight="45" CornerRadius="40" HeightBorder="75" WidthBorder="113" BackColor="#FF4343" ImageSource="/Resources/Icons/LessonIcons/StopCall.png" Margin="10,0,10,0"/>
