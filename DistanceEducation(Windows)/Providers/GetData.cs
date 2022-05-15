@@ -32,21 +32,20 @@
         /// </summary>
         public static async Task<List<HomeWorkModel>> GetHomeWork() 
         {
-            string Link = "";
+            string Link = "http://testingapp.ddns.net:57000/get_school_homework";
             int id;
             string path = $"C:\\Users\\aleks\\data.txt";
             using (StreamReader reader = new StreamReader(path)) 
             {
                 string text = reader.ReadLine();
-                id = Convert.ToInt32(text);
-                MessageBox.Show(id.ToString());
+                id = Convert.ToInt32(text);              
             }
 
 
             using (RestClient client = new RestClient(Link)) 
             {
                 RestRequest request = new RestRequest();
-                var model = new { Id = id };
+                var model = new { ID = id , Schema= "OFKKT" };
                 var json = JsonSerializer.Serialize(model);
                 request.AddJsonBody(json);
                 RestResponse<List<HomeWorkModel>> restResponse = await client.ExecutePostAsync<List<HomeWorkModel>>(request);

@@ -14,6 +14,12 @@
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusTrue.png" />
     <None Remove="Resources\Icons\bell.png" />
+    <None Remove="Resources\Icons\LessonIcons\FlipCam.png" />
+    <None Remove="Resources\Icons\LessonIcons\Icons.png" />
+    <None Remove="Resources\Icons\LessonIcons\Micro.png" />
+    <None Remove="Resources\Icons\LessonIcons\StopCall.png" />
+    <None Remove="Resources\Icons\LessonIcons\Vector.png" />
+    <None Remove="Resources\Icons\LessonIcons\Video.png" />
     <None Remove="Resources\Icons\MenuIcon\Chat.png" />
     <None Remove="Resources\Icons\MenuIcon\Grades.png" />
     <None Remove="Resources\Icons\MenuIcon\GradesList.png" />
@@ -59,6 +65,12 @@
     <Resource Include="Resources\Icons\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Resource>
+    <Resource Include="Resources\Icons\LessonIcons\FlipCam.png" />
+    <Resource Include="Resources\Icons\LessonIcons\Icons.png" />
+    <Resource Include="Resources\Icons\LessonIcons\Micro.png" />
+    <Resource Include="Resources\Icons\LessonIcons\StopCall.png" />
+    <Resource Include="Resources\Icons\LessonIcons\Vector.png" />
+    <Resource Include="Resources\Icons\LessonIcons\Video.png" />
     <Resource Include="Resources\Icons\MenuIcon\Grades.png" />
     <Resource Include="Resources\Icons\MenuIcon\GradesList.png" />
     <Resource Include="Resources\Icons\MenuIcon\HomeWork.png" />
@@ -107,6 +119,12 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Lang.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pop-up\" />
+    <Folder Include="ViewModels\Pop-up\" />
+    <Folder Include="Views\Pop-up\" />
   </ItemGroup>
 
 </Project>

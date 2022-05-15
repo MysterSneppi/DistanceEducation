@@ -21,20 +21,7 @@
             {
                 items = new List<HomeWorkListItemView>();
                 GetListHomeWork();
-
-                if (listHomeWork != null)
-                {
-                    foreach (var item in listHomeWork)
-                    {
-                        items.Add(new HomeWorkListItemView { Date = item.Date, Exercise = item.Exercise, Subject = item.Subject });
-                    }
-
-                    NumberOfTasks = items.Count();
-                }
-                else 
-                {
-                    MessageBox.Show("Не удалось получить список предметов");
-                }
+                ReloadData();   
             }
             catch (Exception ex)
             {
@@ -48,6 +35,7 @@
             try
             {
                 listHomeWork = await GetData.GetHomeWork();
+                ReloadData();
             }
             catch (Exception ex)
             {
@@ -55,6 +43,23 @@
                 MessageBox.Show(ex.Message);
             }
            
+        }
+        private void ReloadData() 
+        {
+            if (listHomeWork != null)
+            {
+                foreach (var item in listHomeWork)
+                {
+                    items.Add(new HomeWorkListItemView { Date = item.Date, Exercise = item.Exercise, Subject = item.Subject });
+                }
+
+                NumberOfTasks = items.Count();
+            }
+            else
+            {
+
+                MessageBox.Show("Не удалось получить список предметов");
+            }
         }
 
 
