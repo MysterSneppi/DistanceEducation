@@ -21,11 +21,12 @@
             <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Hidden">
-            <ItemsControl Grid.Row="0" ItemsSource="{Binding list}">
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" >
+            <ItemsControl Grid.Row="0" 
+                          ItemsSource="{Binding list}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel IsItemsHost="True" />
+                    <WrapPanel IsItemsHost="True" HorizontalAlignment="Center" />
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
         </ItemsControl>

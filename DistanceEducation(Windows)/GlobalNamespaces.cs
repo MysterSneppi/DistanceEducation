@@ -24,3 +24,4 @@ global using DistanceEducation_Windows_.Providers;
 global using DistanceEducation_Windows_.Components;
 global using DistanceEducation_Windows_.Converter;
 global using System.IO;
+global using System.Collections.ObjectModel;

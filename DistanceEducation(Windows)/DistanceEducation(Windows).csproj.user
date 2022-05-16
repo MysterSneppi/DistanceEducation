@@ -49,6 +49,9 @@
     <Compile Update="Views\HomeWorkListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ImageCarouselItemView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ImageCarouselView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,6 +115,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Buttons\LessonControlButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ImageCarouselItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\LessonUserWindowView.xaml">

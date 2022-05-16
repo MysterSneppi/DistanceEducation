@@ -81,3 +81,8 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\Buttons\LessonControlButton.baml
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\LessonUserWindowView.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\LessonUserWindowView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\AForge.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\AForge.Video.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\bin\Debug\net6.0-windows7.0\AForge.Video.DirectShow.dll
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselItemView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\Views\ImageCarouselItemView.baml

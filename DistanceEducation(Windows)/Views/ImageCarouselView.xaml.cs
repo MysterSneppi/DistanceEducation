@@ -24,5 +24,7 @@ namespace DistanceEducation_Windows_.Views
         {
             InitializeComponent();
         }
+
+        
     }
 }
