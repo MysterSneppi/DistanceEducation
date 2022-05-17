@@ -35,9 +35,11 @@
     <None Remove="Resources\Icons\Setting.svg" />
     <None Remove="Resources\Icons\Tray.ico" />
     <None Remove="Resources\Icons\user.png" />
+    <None Remove="Resources\Images\arab.png" />
     <None Remove="Resources\Images\AuthBackground.png" />
     <None Remove="Resources\Images\Group.png" />
     <None Remove="Resources\Images\ImageCarousel.png" />
+    <None Remove="Resources\Images\img.png" />
     <None Remove="Resources\Images\menu.png" />
     <None Remove="Resources\Images\reconstruktion.png" />
     <None Remove="Resources\Images\rightArrow.png" />
@@ -90,9 +92,11 @@
     <Resource Include="Resources\Icons\Setting.svg" />
     <Resource Include="Resources\Icons\Tray.ico" />
     <Resource Include="Resources\Icons\user.png" />
+    <Resource Include="Resources\Images\arab.png" />
     <Resource Include="Resources\Images\AuthBackground.png" />
     <Resource Include="Resources\Images\Group.png" />
     <Resource Include="Resources\Images\ImageCarousel.png" />
+    <Resource Include="Resources\Images\img.png" />
     <Resource Include="Resources\Images\menu.png" />
     <Resource Include="Resources\Images\reconstruktion.png" />
     <Resource Include="Resources\Images\rightArrow.png" />

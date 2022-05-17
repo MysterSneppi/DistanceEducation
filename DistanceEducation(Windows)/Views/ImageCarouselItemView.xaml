@@ -39,7 +39,7 @@
                     CornerRadius="16"
                     Background="White"
                     Margin="0,16,0,0"
-                    HorizontalAlignment="Left">
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom">
 
                 <TextBlock HorizontalAlignment="Center"
                            VerticalAlignment="Center"
