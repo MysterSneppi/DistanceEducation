@@ -13,10 +13,11 @@
         </Grid.ColumnDefinitions>
 
         <Image Source="{Binding ImageSource}"
-                       Width="340"
-                       Height="340"
+                       Width="{Binding ImageWidth}"
+                       Height="{Binding ImageHeight}"
                        HorizontalAlignment="Center"
-                       VerticalAlignment="Top" Margin="0,-30,0,0"/>
+               Margin="10"
+                       VerticalAlignment="Top" />
 
         <StackPanel Grid.Column="1"
                     HorizontalAlignment="Center">

@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Advertising\csharp.png" />
+    <None Remove="Resources\Advertising\GO.png" />
     <None Remove="Resources\Icons\ArrowUserButton.png" />
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
@@ -41,6 +43,7 @@
     <None Remove="Resources\Images\ImageCarousel.png" />
     <None Remove="Resources\Images\img.png" />
     <None Remove="Resources\Images\menu.png" />
+    <None Remove="Resources\Images\PR.png" />
     <None Remove="Resources\Images\reconstruktion.png" />
     <None Remove="Resources\Images\rightArrow.png" />
     <None Remove="Resources\Images\star.png" />
@@ -61,6 +64,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Advertising\csharp.png" />
+    <Resource Include="Resources\Advertising\GO.png" />
     <Resource Include="Resources\Icons\ArrowUserButton.png" />
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
@@ -95,9 +100,10 @@
     <Resource Include="Resources\Images\arab.png" />
     <Resource Include="Resources\Images\AuthBackground.png" />
     <Resource Include="Resources\Images\Group.png" />
-    <Resource Include="Resources\Images\ImageCarousel.png" />
+    <Resource Include="Resources\Advertising\Stud.png" />
     <Resource Include="Resources\Images\img.png" />
     <Resource Include="Resources\Images\menu.png" />
+    <Resource Include="Resources\Advertising\PR.png" />
     <Resource Include="Resources\Images\reconstruktion.png" />
     <Resource Include="Resources\Images\rightArrow.png" />
     <Resource Include="Resources\Images\star.png" />

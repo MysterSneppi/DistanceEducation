@@ -49,6 +49,31 @@ namespace DistanceEducation_Windows_.Views
 
 
 
+        public object ImageWidth
+        {
+            get { return (object)GetValue(ImageWidthProperty); }
+            set { SetValue(ImageWidthProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ImageWidth.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageWidthProperty =
+            DependencyProperty.Register("ImageWidth", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
+
+
+
+
+        public object ImageHeight
+        {
+            get { return (object)GetValue(ImageHeightProperty); }
+            set { SetValue(ImageHeightProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ImageHeight.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageHeightProperty =
+            DependencyProperty.Register("ImageHeight", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
+
+
+
 
         public ImageCarouselItemView()
         {

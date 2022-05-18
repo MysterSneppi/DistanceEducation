@@ -46,7 +46,6 @@
                 <view:LessonControlButton ImageWidth="18" ImageHeight="28" CornerRadius="45" HeightBorder="75" WidthBorder="75" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Micro.png" Margin="10,0,10,0" />
                 <view:LessonControlButton ImageWidth="45" ImageHeight="45" CornerRadius="40" HeightBorder="75" WidthBorder="113" BackColor="#FF4343" ImageSource="/Resources/Icons/LessonIcons/StopCall.png" Margin="10,0,10,0"/>
                 <view:LessonControlButton ImageWidth="30" ImageHeight="19" CornerRadius="45" HeightBorder="75" WidthBorder="75" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Video.png" Margin="10,0,10,0"/>
-                <view:LessonControlButton ImageWidth="17" ImageHeight="17" CornerRadius="45" HeightBorder="50" WidthBorder="50" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/FlipCam.png" Margin="10,0,10,0"/>
                 <view:LessonControlButton ImageWidth="20" ImageHeight="20" CornerRadius="45" HeightBorder="50" WidthBorder="50" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Vector.png" Margin="10,0,10,0"/>
                 
             </StackPanel>

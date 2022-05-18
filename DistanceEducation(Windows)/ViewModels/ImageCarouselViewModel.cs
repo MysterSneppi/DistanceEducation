@@ -19,10 +19,10 @@
         }
         private void AddItemsInCarousel() 
         {
-            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Images/ImageCarousel.png", Title = "Даты защиты дипломов", Text = "Для груп 18 ПР-1 и 18 ПР-2 даты следующие : 15.06 , 17.06 , 21.06 , 22.06  \n\nВсем удачной защиты! " });
-            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Images/img.png", Title = "Ещё раз привет", Text = "Ещё какойто текс" });
-            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Images/ImageCarousel.png", Title = "Ещё раз привет2", Text = "Ещё какойто текс" });
-            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Images/ImageCarousel.png", Title = "Ещё раз привет3", Text = "Ещё какойто текс" });
+            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Advertising/Stud.png", Title = "Даты защиты дипломов", Text = "Для груп 18 ПР-1 и 18 ПР-2 даты следующие : 15.06 , 17.06 , 21.06 , 22.06  \n\nВсем удачной защиты! " });
+            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Advertising/PR.png", Title = "Вступительная компания",ImageWidth=100,ImageHeight=100 ,  Text = "Мечтаете стать программистом?\nНо не знаете с чего начат и где научиться?\nОФККТ разскажет и поможет вам с выбором.\nДля более детальной информацией переходите на наш сайт" });
+            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Advertising/csharp.png", Title = "Ещё раз привет2", Text = "Ещё какойто текс" });
+            ImageCarouselItems.Add(new ImageCarouselItemView() { ImageSource = "/Resources/Advertising/GO.png", Title = "Fgyutr", Text = "" });
 
             for (int i = 0; i < ImageCarouselItems.Count; i++)
             {
