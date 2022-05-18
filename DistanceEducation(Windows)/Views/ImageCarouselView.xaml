@@ -27,7 +27,7 @@
                     <RowDefinition Height="0.1*"/>
                 </Grid.RowDefinitions>
 
-                <ItemsControl ItemsSource="{Binding ImageCarouselItems}">
+                <ItemsControl ItemsSource="{Binding ImageCarouselItemsCurrent}">
 
                 </ItemsControl>
 
