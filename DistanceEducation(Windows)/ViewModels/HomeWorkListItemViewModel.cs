@@ -52,12 +52,10 @@
                 {
                     items.Add(new HomeWorkListItemView { Date = item.Date, Exercise = item.Exercise, Subject = item.Subject });
                 }
-
                 NumberOfTasks = items.Count();
             }
             else
             {
-
                 MessageBox.Show("Не удалось получить список предметов");
             }
         }

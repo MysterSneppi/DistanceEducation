@@ -2,7 +2,6 @@
 {
     internal class MainWindowViewModel : BaseViewModel
     {
-
         #region Relays
 
         public RelayCommand MainPageCommand { get; set; }
@@ -27,8 +26,6 @@
 
 
         #endregion
-
-
         #region ObjectBinding
         private string _headerText;
 
@@ -54,8 +51,6 @@
             }
         }
         #endregion
-
-
 
         public MainWindowViewModel()
         {

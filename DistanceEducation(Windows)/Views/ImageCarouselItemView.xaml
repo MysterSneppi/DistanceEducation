@@ -12,47 +12,22 @@
             <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Source="{Binding ImageSource}"
-                       Width="{Binding ImageWidth}"
-                       Height="{Binding ImageHeight}"
-                       HorizontalAlignment="Center"
-               Margin="10"
-                       VerticalAlignment="Top" />
+        <Image Source="{Binding ImageSource}" Width="{Binding ImageWidth}" Height="{Binding ImageHeight}"
+               HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top" />
 
-        <StackPanel Grid.Column="1"
-                    HorizontalAlignment="Center">
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center">
 
-            <TextBlock Text="{Binding Title}"
-                           FontSize="24"
-                           Foreground="White"
-                           TextWrapping="Wrap"
-                               FontWeight="Bold"
-                               Margin="0,0,40,0"/>
-            <TextBlock Text="{Binding Text}"
-                               FontSize="14"
-                               Foreground="White"
-                               TextWrapping="Wrap"
-                               Margin="0,8,40,0"/>
+            <TextBlock Text="{Binding Title}" FontSize="24" Foreground="White" 
+                       TextWrapping="Wrap" FontWeight="Bold" Margin="0,0,40,0"/>
+            <TextBlock Text="{Binding Text}" FontSize="14" Foreground="White" 
+                       TextWrapping="Wrap" Margin="0,8,40,0"/>
 
+            <Border Width="200" Height="60" CornerRadius="16" Background="White" 
+                    Margin="0,16,0,0" HorizontalAlignment="Left" VerticalAlignment="Bottom">
 
-            <Border Width="200"
-                    Height="60"
-                    CornerRadius="16"
-                    Background="White"
-                    Margin="0,16,0,0"
-                    HorizontalAlignment="Left" VerticalAlignment="Bottom">
-
-                <TextBlock HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Text="Оставить отзыв"
-                           FontSize="14"
-                           FontWeight="Bold"/>
-
-
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ButtonText}"
+                           FontSize="14" FontWeight="Bold"/>
             </Border>
-
-
         </StackPanel>
-
     </Grid>
 </UserControl>

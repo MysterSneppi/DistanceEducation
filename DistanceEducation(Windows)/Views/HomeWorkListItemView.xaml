@@ -15,9 +15,8 @@
             <ColumnDefinition Width="0.2*"/>
             <ColumnDefinition Width="0.05*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Image Width="30" Height="30" Source="{Binding Status}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        
         <TextBlock Text="{Binding Date}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>
         <TextBlock Text="{Binding Exercise}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16" Foreground="Black" Grid.Column="2" />
         <TextBlock Text="{Binding Subject}"  Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>

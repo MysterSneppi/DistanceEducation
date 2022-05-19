@@ -46,9 +46,6 @@ namespace DistanceEducation_Windows_.Views
         public static readonly DependencyProperty TextProperty =
             DependencyProperty.Register("Text", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
 
-
-
-
         public object ImageWidth
         {
             get { return (object)GetValue(ImageWidthProperty); }
@@ -58,10 +55,6 @@ namespace DistanceEducation_Windows_.Views
         // Using a DependencyProperty as the backing store for ImageWidth.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageWidthProperty =
             DependencyProperty.Register("ImageWidth", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
-
-
-
-
         public object ImageHeight
         {
             get { return (object)GetValue(ImageHeightProperty); }
@@ -71,6 +64,20 @@ namespace DistanceEducation_Windows_.Views
         // Using a DependencyProperty as the backing store for ImageHeight.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageHeightProperty =
             DependencyProperty.Register("ImageHeight", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
+
+
+
+
+        public object ButtonText
+        {
+            get { return (object)GetValue(ButtonTextProperty); }
+            set { SetValue(ButtonTextProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ButtonText.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ButtonTextProperty =
+            DependencyProperty.Register("ButtonText", typeof(object), typeof(ImageCarouselItemView), new PropertyMetadata(0));
+
 
 
 

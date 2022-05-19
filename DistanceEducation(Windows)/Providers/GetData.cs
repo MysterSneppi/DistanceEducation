@@ -41,7 +41,6 @@
                 id = Convert.ToInt32(text);              
             }
 
-
             using (RestClient client = new RestClient(Link)) 
             {
                 RestRequest request = new RestRequest();
@@ -52,10 +51,7 @@
 
                 List<HomeWorkModel> list = restResponse.Data;
                 return list;
-            }
-          
-
-           
+            }                  
         }
     }
 }
