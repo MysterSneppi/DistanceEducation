@@ -57,7 +57,7 @@ namespace DistanceEducation_Windows_ {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);V1.0.0.0;component/pages/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);component/pages/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

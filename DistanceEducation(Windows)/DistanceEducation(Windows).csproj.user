@@ -43,6 +43,9 @@
     <Compile Update="Views\Buttons\LessonControlButton.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\HeaderView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HomeWorkListItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +68,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MainPageLessonItemView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\UserView.xaml.cs">
@@ -117,6 +123,9 @@
     <Page Update="Views\Buttons\LessonControlButton.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\HeaderView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ImageCarouselItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -124,6 +133,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\LessonView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Resource Update="Resources\Icons\Icons.xaml">

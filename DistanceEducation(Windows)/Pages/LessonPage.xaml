@@ -6,10 +6,31 @@
       xmlns:local="clr-namespace:DistanceEducation_Windows_.Pages"
       xmlns:view ="clr-namespace:DistanceEducation_Windows_.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="1100"
+      d:DesignHeight="800" d:DesignWidth="1100"
       Title="LessonPage">
 
     <Grid>
-        <view:LessonView/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="9.5*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--Header-->
+        <Grid Grid.Row="0" >
+            <DockPanel>
+                <Border Background="#2F3CED" Width="200" DockPanel.Dock="Left"/>
+                <TextBlock Text="Урок 4 "
+                           VerticalAlignment="Center" 
+                           Margin="36,0,0,0"
+                           FontSize="26"
+                           FontWeight="Bold"/>
+            </DockPanel>
+        </Grid>
+
+
+        <Grid Grid.Row="1">
+            <view:LessonView/>
+        </Grid>
     </Grid>
 </Page>

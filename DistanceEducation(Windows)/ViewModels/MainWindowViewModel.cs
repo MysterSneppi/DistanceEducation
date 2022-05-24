@@ -50,6 +50,14 @@
                 OnPropertyChanged();
             }
         }
+
+        private object _topMenu;
+        public object TopMenu 
+        {
+            get { return _topMenu; }
+            set { _topMenu = value;OnPropertyChanged();}
+        }
+
         #endregion
 
         public MainWindowViewModel()
@@ -64,19 +72,16 @@
             SettingsPage = new SettingsPage();
 
             //Starter Page
-            CurrentView = MainPage;           
-            HeaderText = "Почему еще не на уроке?";
+            CurrentView = MainPage;        
 
             MainPageCommand = new RelayCommand(o =>
             {
-                CurrentView = MainPage;
-                HeaderText = "Почему еще не на уроке?";
+                CurrentView = MainPage;                
             });
 
             HomeWorkPageCommand = new RelayCommand(o =>
             {
                 CurrentView = HomeWorkPage;
-                HeaderText = "Вот твои задания.";
             });
 
             LessonPageCommand = new RelayCommand(o =>
@@ -107,7 +112,6 @@
             SettingsPageCommand = new RelayCommand(o =>
             {
                 CurrentView = SettingsPage;
-                HeaderText = "Настройки";
             });
 
         }

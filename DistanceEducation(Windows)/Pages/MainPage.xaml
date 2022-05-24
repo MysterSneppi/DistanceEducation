@@ -14,69 +14,115 @@
     </Page.DataContext>
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.6*"/>
-            <ColumnDefinition Width="0.4*"/>
-        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="0.75*"/>
+        </Grid.RowDefinitions>
 
-        <!--Left-->
-        <Grid  Grid.Column="0">
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0.6*"/>
-                <RowDefinition Height="0.4*"/>
-            </Grid.RowDefinitions>
-            <!--Event Notification-->
-            <view:ImageCarouselView Grid.Row="0" 
+        <!--Header-->
+        <Grid Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*"/>
+                    <ColumnDefinition Width="0.4*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Почему ещё не на уроке?"
+                           FontSize="40"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Grid.Column="0"
+                           Margin="30,0,0,0"/>
+
+                <DockPanel Grid.Column="1" 
+                               LastChildFill="False"
+                               Background="#F5FBFF">
+                    <Border CornerRadius="30"
+                            DockPanel.Dock="Right"
+                            Background="White"
+                            VerticalAlignment="Center"
+                            Height="48"
+                            Width="48"
+                            Margin="0,0,60,0">
+                        <Image Width="24"
+                                   Height="24"
+                                   Source="/Resources/Icons/bell.png"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                    </Border>
+                </DockPanel>
+            </Grid>
+
+        </Grid>
+
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="0.4*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Left-->
+
+            <Grid  Grid.Column="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.6*"/>
+                    <RowDefinition Height="0.4*"/>
+                </Grid.RowDefinitions>
+                <!--Event Notification-->
+                <view:ImageCarouselView Grid.Row="0" 
                                     Margin="34,0,0,0"
                                     
                                     HorizontalAlignment="Left"/>
 
-            <ItemsControl Grid.Row="1"  VerticalAlignment="Center" Margin="28,0,0,0">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel Orientation="Horizontal"  />
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <view:MainPageChatItemView/>
-                <view:MainPageChatItemView/>
-                <view:MainPageChatItemView/>
+                <ItemsControl Grid.Row="1"  VerticalAlignment="Center" Margin="28,0,0,0">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"  />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <view:MainPageChatItemView/>
+                    <view:MainPageChatItemView/>
+                    <view:MainPageChatItemView/>
 
-            </ItemsControl>
+                </ItemsControl>
 
-        </Grid>
-        <!--Right-->
-        <Grid Grid.Column="1" 
+            </Grid>
+            <!--Right-->
+            <Grid Grid.Column="1" 
               Margin="24,20,38,45"
               Background="#F5FBFF">
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="64*"/>
-                <RowDefinition Height="103*"/>
-                <RowDefinition Height="469*"/>
-            </Grid.RowDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="64*"/>
+                    <RowDefinition Height="103*"/>
+                    <RowDefinition Height="469*"/>
+                </Grid.RowDefinitions>
 
 
-            <Label Content="Занятия сегодня:"
+                <Label Content="Занятия сегодня:"
                    FontSize="18"
                    FontWeight="Bold"
                    Grid.Row="0"
                    Margin="24,0,0,102" Grid.RowSpan="2"/>
 
-            <ScrollViewer VerticalScrollBarVisibility="Hidden" 
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" 
                           Grid.Row="1" Grid.RowSpan="2">
-                <ItemsControl Grid.Row="1" ItemsSource="{Binding items}" >
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <WrapPanel Orientation="Vertical"  />
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
+                    <ItemsControl Grid.Row="1" ItemsSource="{Binding items}" >
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Vertical"  />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
 
 
 
-                </ItemsControl>
-            </ScrollViewer>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+
         </Grid>
-
     </Grid>
 </Page>

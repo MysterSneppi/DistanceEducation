@@ -17,8 +17,8 @@
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.8*"/>
-            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.85*"/>
+            <RowDefinition Height="0.15*"/>
         </Grid.RowDefinitions>
 
         <ScrollViewer VerticalScrollBarVisibility="Hidden" >
@@ -40,7 +40,7 @@
             </Grid.ColumnDefinitions>
 
             
-                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,-20,0,0">
                 
                 <view:LessonControlButton ImageWidth="30" ImageHeight="30" CornerRadius="45" HeightBorder="50" WidthBorder="50" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Icons.png" Margin="10,0,10,0" />
                 <view:LessonControlButton ImageWidth="18" ImageHeight="28" CornerRadius="45" HeightBorder="75" WidthBorder="75" BackColor="#C02F3CED" ImageSource="/Resources/Icons/LessonIcons/Micro.png" Margin="10,0,10,0" />
