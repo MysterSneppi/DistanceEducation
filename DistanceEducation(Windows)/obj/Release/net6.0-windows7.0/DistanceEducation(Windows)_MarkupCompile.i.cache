@@ -16,5 +16,5 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
 217-904462092
 Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\ComboBoxRegStyle.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\Buttons\LessonControlButton.xaml;Views\HeaderView.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselItemView.xaml;Views\ImageCarouselView.xaml;Views\LessonUserWindowView.xaml;Views\LessonView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\SettingsView.xaml;Views\UserView.xaml;
 
-True
+False
 
