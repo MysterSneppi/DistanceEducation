@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DistanceEducation_Windows_.Models
 {
-    internal class UserModel
+    public class UserModel
     {
-        public string Name { get; set; }
-        public int Id { get; set; }
+
+
 
     }
 }

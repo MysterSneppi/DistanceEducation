@@ -90,3 +90,7 @@ D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\SettingsView.baml
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\HeaderView.g.cs
 D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\HeaderView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\GradesListView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\GradesListView.baml
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\GradesListItemView.g.cs
+D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Release\net6.0-windows7.0\Views\GradesListItemView.baml

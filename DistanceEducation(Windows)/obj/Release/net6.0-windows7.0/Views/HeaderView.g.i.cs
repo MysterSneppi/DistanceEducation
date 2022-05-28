@@ -54,7 +54,7 @@ namespace DistanceEducation_Windows_.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);V1.0.0.0;component/views/headerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DistanceEducation(Windows);component/views/headerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\HeaderView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

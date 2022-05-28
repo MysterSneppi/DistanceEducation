@@ -43,6 +43,12 @@
     <Compile Update="Views\Buttons\LessonControlButton.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\GradesListItemView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\GradesListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HeaderView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -121,6 +127,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Buttons\LessonControlButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\GradesListItemView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\GradesListView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\HeaderView.xaml">
