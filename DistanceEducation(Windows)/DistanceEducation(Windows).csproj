@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Resources\Advertising\csharp.png" />
     <None Remove="Resources\Advertising\GO.png" />
+    <None Remove="Resources\Icons\AccountExit.png" />
     <None Remove="Resources\Icons\ArrowUserButton.png" />
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
     <None Remove="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
@@ -37,8 +38,10 @@
     <None Remove="Resources\Icons\Setting.svg" />
     <None Remove="Resources\Icons\Tray.ico" />
     <None Remove="Resources\Icons\user.png" />
+    <None Remove="Resources\Icons\UserPhotoChange.png" />
     <None Remove="Resources\Images\arab.png" />
     <None Remove="Resources\Images\AuthBackground.png" />
+    <None Remove="Resources\Images\BackgroundSettings.png" />
     <None Remove="Resources\Images\Group.png" />
     <None Remove="Resources\Images\ImageCarousel.png" />
     <None Remove="Resources\Images\img.png" />
@@ -66,6 +69,7 @@
   <ItemGroup>
     <Resource Include="Resources\Advertising\csharp.png" />
     <Resource Include="Resources\Advertising\GO.png" />
+    <Resource Include="Resources\Icons\AccountExit.png" />
     <Resource Include="Resources\Icons\ArrowUserButton.png" />
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusFalse.png" />
     <Resource Include="Resources\Icons\AuxiliaryIcons\StatusGray.png" />
@@ -97,8 +101,10 @@
     <Resource Include="Resources\Icons\Setting.svg" />
     <Resource Include="Resources\Icons\Tray.ico" />
     <Resource Include="Resources\Icons\user.png" />
+    <Resource Include="Resources\Icons\UserPhotoChange.png" />
     <Resource Include="Resources\Images\arab.png" />
     <Resource Include="Resources\Images\AuthBackground.png" />
+    <Resource Include="Resources\Images\BackgroundSettings.png" />
     <Resource Include="Resources\Images\Group.png" />
     <Resource Include="Resources\Advertising\Stud.png" />
     <Resource Include="Resources\Images\img.png" />

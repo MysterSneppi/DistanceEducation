@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="2*"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -23,7 +23,67 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Border Grid.ColumnSpan="2" Background="Gray" CornerRadius="12" Margin="10,0,10,24"/>
+        <Border Grid.ColumnSpan="2" CornerRadius="12" Margin="10,0,10,24">
+            <Border.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Resources/Images/BackgroundSettings.png"/>
+            </Border.Background>
+
+            <Grid Margin="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Width="50"
+                        Height="50" 
+                        Grid.Column="1"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Cursor="Hand">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Border 
+                        CornerRadius="45"
+                        Background="#FFFFFF"
+                        >
+                            <Image Width="20" Height="20" RenderOptions.BitmapScalingMode="HighQuality" Source="/Resources/Icons/AccountExit.png"/>
+                        </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Border Width="100" 
+                        Height="100"
+                        CornerRadius="50"
+                        Background="#FFFFFF"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Bottom">
+                    <Button Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate>
+                                <Border Background="#2F3CED"
+                            Width="32"
+                            Height="32"
+                            CornerRadius="45"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Right">
+
+                                    <Image Source="/Resources/Icons/UserPhotoChange.png"
+                               RenderOptions.BitmapScalingMode="HighQuality"
+                               Width="20"
+                               Height="20"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    
+
+                </Border>   
+
+
+            </Grid>
+            
+        </Border>
 
 
         <StackPanel Grid.Row="1" Grid.Column="0" Margin="10,0,10,0"  >
@@ -72,22 +132,58 @@
             <Border CornerRadius="8" 
                     Background="#EEF6FB"
                     Height="50"
-                    Margin="0,12,0,0"/>
+                    Width="Auto"
+                    Margin="0,12,0,0"
+                    Style="{StaticResource ListInstitutions}">
+                <ComboBox ItemsSource="{Binding ListInstitutions}"
+                                  Margin="20,0,20,0"
+                              DisplayMemberPath="Name"
+                              
+                              SelectedItem="{Binding CurrenntSelection}"
+                              SelectedValuePath="Name"
+                              IsSynchronizedWithCurrentItem="True"
+                              Style="{StaticResource  ComboBoxStyleREGISTRATION}" BorderBrush="{x:Null}" Cursor="Hand"
+                             />
+            </Border>
         </StackPanel>
 
         <StackPanel Grid.Row="4" Grid.Column="1" Margin="10,0,10,0" >
-            <TextBlock Text="Качаество камеры" FontSize="16" FontWeight="Bold" />
+            <TextBlock Text="Качество видео" FontSize="16" FontWeight="Bold" />
             <Border CornerRadius="8" 
                     Background="#EEF6FB"
                     Height="50"
-                    Margin="0,12,0,0"/>
+                    Width="Auto"
+                    Margin="0,12,0,0"
+                    Style="{StaticResource ListInstitutions}">
+                <ComboBox ItemsSource="{Binding ListInstitutions}"
+                                  Margin="20,0,20,0"
+                              DisplayMemberPath="Name"
+                             
+                              SelectedItem="{Binding CurrenntSelection}"
+                              SelectedValuePath="Name"
+                              IsSynchronizedWithCurrentItem="True"
+                              Style="{StaticResource  ComboBoxStyleREGISTRATION}" BorderBrush="{x:Null}" Cursor="Hand"
+                             />
+            </Border>
         </StackPanel>
         <StackPanel Grid.Row="5" Grid.Column="0" Margin="10,0,10,0"  >
             <TextBlock Text="Выбрать микрофон" FontSize="16" FontWeight="Bold" />
             <Border CornerRadius="8" 
                     Background="#EEF6FB"
                     Height="50"
-                    Margin="0,12,0,0"/>
+                    Width="Auto"
+                    Margin="0,12,0,0"
+                    Style="{StaticResource ListInstitutions}">
+                <ComboBox ItemsSource="{Binding ListInstitutions}"
+                                  Margin="20,0,20,0"
+                              DisplayMemberPath="Name"
+                             
+                              SelectedItem="{Binding CurrenntSelection}"
+                              SelectedValuePath="Name"
+                              IsSynchronizedWithCurrentItem="True"
+                              Style="{StaticResource  ComboBoxStyleREGISTRATION}" BorderBrush="{x:Null}" Cursor="Hand"
+                             />
+            </Border>
         </StackPanel>
 
         <StackPanel Grid.Row="5" Grid.Column="1" Margin="10,0,10,0" >
@@ -95,14 +191,38 @@
             <Border CornerRadius="8" 
                     Background="#EEF6FB"
                     Height="50"
-                    Margin="0,12,0,0"/>
+                    Width="Auto"
+                    Margin="0,12,0,0"
+                    Style="{StaticResource ListInstitutions}">
+                <ComboBox ItemsSource="{Binding ListInstitutions}"
+                                  Margin="20,0,20,0"
+                              DisplayMemberPath="Name"
+                             
+                              SelectedItem="{Binding CurrenntSelection}"
+                              SelectedValuePath="Name"
+                              IsSynchronizedWithCurrentItem="True"
+                              Style="{StaticResource  ComboBoxStyleREGISTRATION}" BorderBrush="{x:Null}" Cursor="Hand"
+                             />
+            </Border>
         </StackPanel>
 
 
         <StackPanel VerticalAlignment="Center" Grid.Row="7" Grid.ColumnSpan="2" Margin="10,0,10,0" Orientation="Horizontal">
             <TextBlock Text="Версия программы - 1.001" VerticalAlignment="Center" Foreground="#092C4C" FontWeight="Bold"/>
-            <Border Background="#2F3CED" CornerRadius="8" Height="30" Width="320" Margin="13"/>
-            <Border Background="#7E92A2" CornerRadius="8" Height="30" Width="220" Margin="13"/>
+            <Border Background="#2F3CED" CornerRadius="8" Height="30" Width="320" Margin="13">
+                <TextBlock Text="Проверить наличие обновлений"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           Foreground="#FFFFFF"/>
+            </Border>
+            <Border Background="#EAEEF4" CornerRadius="8" Height="30" Width="220" Margin="13">
+                <TextBlock Text="Обновить программу"
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center" 
+                           Foreground="#7E92A2" 
+                           FontSize="16"/>
+            </Border>
         </StackPanel>
 
     </Grid>
