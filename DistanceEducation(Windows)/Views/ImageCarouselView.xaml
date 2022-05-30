@@ -39,12 +39,13 @@
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <StackPanel Orientation="Horizontal" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                
                             </ItemsPanelTemplate>
                         </ItemsControl.ItemsPanel>
                     </ItemsControl>
-                    
-                    
-                    
+
+              
+
                 </Grid>
 
 
