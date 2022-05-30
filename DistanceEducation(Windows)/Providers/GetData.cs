@@ -54,5 +54,33 @@
                 return list;
             }                  
         }
+
+        public static async Task<List<GradesListModel>> GetGradesList() 
+        {
+
+            string Link = "http://webrtcgotest.ddns.net:57000/get_school_homework";
+            int id;
+
+            string path = $"C:\\Users\\aleks\\data.txt";
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string text = reader.ReadLine();
+                id = Convert.ToInt32(text);
+            }
+
+            using (RestClient client = new RestClient(Link))
+            {
+                RestRequest request = new RestRequest();
+                var model = new { ID = id, Schema = "OFKKT" };
+                var json = JsonSerializer.Serialize(model);
+                request.AddJsonBody(json);
+                RestResponse<List<GradesListModel>> restResponse = await client.ExecutePostAsync<List<GradesListModel>>(request);
+
+                List<GradesListModel> list = restResponse.Data;
+                return list;
+            }
+
+        }
+
     }
 }

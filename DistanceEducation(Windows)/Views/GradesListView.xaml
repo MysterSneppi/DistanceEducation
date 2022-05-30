@@ -5,8 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DistanceEducation_Windows_.Views"
              xmlns:view="clr-namespace:DistanceEducation_Windows_.Views"
+             xmlns:vm="clr-namespace:DistanceEducation_Windows_.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:GradesListViewModel/>
+    </UserControl.DataContext>
     
     <Grid Background="White" Margin="0,0,0,20">
         <Grid.RowDefinitions>
@@ -18,13 +22,13 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Количество заданий : "
+            <TextBlock Text="Количество табелей : "
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Center"
                        Foreground="#092C4C"
                        FontSize="16"
                        FontWeight="Bold"/>
-            <TextBlock Text="{Binding NumberOfTasks}"
+            <TextBlock Text="{Binding NumberOfGrades}"
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Center"
                        Foreground="#092C4C"
