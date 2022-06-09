@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
-25170491157
+291993189584
 
-45-1496140878
+54189109360
 217-904462092
-Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\ComboBoxRegStyle.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\Buttons\LessonControlButton.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselItemView.xaml;Views\ImageCarouselView.xaml;Views\LessonUserWindowView.xaml;Views\LessonView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\UserView.xaml;
+Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\ComboBoxRegStyle.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\Buttons\LessonControlButton.xaml;Views\GradesListItemView.xaml;Views\GradesListView.xaml;Views\HeaderView.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselItemView.xaml;Views\ImageCarouselView.xaml;Views\LessonUserWindowView.xaml;Views\LessonView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\SettingsView.xaml;Views\UserView.xaml;
 
 False
 

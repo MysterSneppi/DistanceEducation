@@ -1,18 +1,21 @@
 ﻿namespace DistanceEducation_Windows_.Models.GradesLists
 {
-    public class GradesListModel
-    {
-        public string Year;
-        public int NumberOfSubject;
-        public int Semester;
-        public List<SubjectModel> GradesList;
+    internal class GradesListModel
+    {       
+        public float AverageRateAll { get; set; }
+        public int Year { get; set; }
+        public int NumberOfSubject { get; set; }
+        public int Semester { get; set; }
+        public List<SubjectModel> GradesList { get; set; }
 
-        public GradesListModel(string year, int numberOfSubject, int semester, List<SubjectModel> gradesList)
-        {
-            Year = year;
-            NumberOfSubject = numberOfSubject;
-            Semester = semester;
-            GradesList = gradesList;
-        }
+
+        //public GradesListModel(int year, int numberOfSubject, int semester, List<SubjectModel> gradesList , float average_rate_all)
+        //{
+        //    AverageRateAll = average_rate_all;
+        //    Year = year;
+        //    NumberOfSubject = numberOfSubject;
+        //    Semester = semester;
+        //    GradesList = gradesList;
+        //}
     }
 }

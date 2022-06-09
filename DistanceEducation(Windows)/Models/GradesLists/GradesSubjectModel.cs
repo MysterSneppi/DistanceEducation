@@ -3,15 +3,16 @@
     /// <summary>
     /// Properties grade
     /// </summary>
-    public class GradesSubjectModel
+    internal class GradesSubjectModel
     {
-        public string Date;
-        public int Grade;
+        public string Date { get; set; }
+        public int Grade { get; set; }
 
-        public GradesSubjectModel(string date, int grade)
-        {
-            Date = date;
-            Grade = grade;
-        }
+        //public GradesSubjectModel(string date, int grade)
+        //    {
+        //        Date = date;
+        //        Grade = grade;
+        //    }
+        //}
     }
 }

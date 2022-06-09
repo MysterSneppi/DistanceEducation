@@ -1,17 +1,16 @@
 ﻿namespace DistanceEducation_Windows_.Models.GradesLists
 {
-    public class SubjectModel
+    internal class SubjectModel
     {
-        public float GPA; // average grade
-        public string NameSubject;
-        public List<GradesSubjectModel> ListGrades;
+        public float AverageRate { get; set; }
+        public string NameSubject { get; set; }
+        public List<GradesSubjectModel> ListGrades { get; set; }
 
-        public SubjectModel() { }
-        public SubjectModel(float gPA, string nameSubject, List<GradesSubjectModel> listGrades)
-        {
-            GPA = gPA;
-            NameSubject = nameSubject;
-            ListGrades = listGrades;
-        }
+        //public SubjectModel(float average_rate, string nameSubject, List<GradesSubjectModel> listGrades)
+        //{
+        //    AverageRate = average_rate;
+        //    NameSubject = nameSubject;
+        //    ListGrades = listGrades;
+        //}
     }
 }

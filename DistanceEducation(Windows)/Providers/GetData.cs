@@ -1,7 +1,9 @@
 ﻿namespace DistanceEducation_Windows_.Providers
 {
     internal class GetData
-    {       
+    {
+
+        //webrtcgotest.ddns.net:57000
         /// <summary>
         /// Get list Institutions
         /// </summary>
@@ -9,7 +11,7 @@
         /// <exception cref="ArgumentException"></exception>
         public static async Task<List<InstitutionsModel>> GetListInstitution()
         {
-            string Link = "http://testingapp.ddns.net:57000/get_institution";
+            string Link = "http://webrtcgotest.ddns.net:57000/get_institution";
             
             using (var client = new RestClient(Link))
             {
@@ -51,6 +53,7 @@
                 RestResponse<List<HomeWorkModel>> restResponse = await client.ExecutePostAsync<List<HomeWorkModel>>(request);
 
                 List<HomeWorkModel> list = restResponse.Data;
+              
                 return list;
             }                  
         }
@@ -58,7 +61,7 @@
         public static async Task<List<GradesListModel>> GetGradesList() 
         {
 
-            string Link = "http://webrtcgotest.ddns.net:57000/get_school_homework";
+            string Link = "http://webrtcgotest.ddns.net:57000/get_rates";
             int id;
 
             string path = $"C:\\Users\\aleks\\data.txt";
@@ -74,9 +77,10 @@
                 var model = new { ID = id, Schema = "OFKKT" };
                 var json = JsonSerializer.Serialize(model);
                 request.AddJsonBody(json);
-                RestResponse<List<GradesListModel>> restResponse = await client.ExecutePostAsync<List<GradesListModel>>(request);
-
-                List<GradesListModel> list = restResponse.Data;
+                var a = await client.ExecutePostAsync<object>(request);
+                
+                RestResponse<List<GradesListModel>> restResponse = await client.ExecutePostAsync<List<GradesListModel>>(request);            
+                List <GradesListModel> list = restResponse.Data;              
                 return list;
             }
 

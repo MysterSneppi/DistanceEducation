@@ -42,8 +42,7 @@ namespace DistanceEducation_Windows_.ViewModels
             try
             {
                 gradesList = await GetData.GetGradesList();
-
-                
+                ReloadData();
             }
             catch (Exception ex)
             {
@@ -59,13 +58,13 @@ namespace DistanceEducation_Windows_.ViewModels
             {
                 foreach (var item in gradesList)
                 {
-                    items.Add(new GradesListItemView{Date = item.Year , NumberOfSubject = item.NumberOfSubject, Class=item.Semester });
+                    items.Add(new GradesListItemView{Date = item.Year , NumberOfSubject = item.NumberOfSubject, Class=item.Semester , GPA = item.AverageRateAll});
                 }
                 NumberOfGrades = items.Count();
             }
             else
             {
-                // MessageBox.Show("Не удалось получить список предметов");
+                 MessageBox.Show("Не удалось получить список табелей");
             }
         }
 

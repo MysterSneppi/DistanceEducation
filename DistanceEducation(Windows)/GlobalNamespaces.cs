@@ -26,3 +26,4 @@ global using DistanceEducation_Windows_.Converter;
 global using DistanceEducation_Windows_.Models.GradesLists;
 global using System.IO;
 global using System.Collections.ObjectModel;
+global using System.Text.Json.Serialization;
