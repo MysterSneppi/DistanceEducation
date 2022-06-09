@@ -105,7 +105,7 @@
             </Border>
         </Grid>
         <!--Content-->
-        <Grid Grid.Column="1" Margin="10,0,0,0">
+        <Grid Grid.Column="1" Margin="0,0,0,0">
             
             <!--Body-->
 

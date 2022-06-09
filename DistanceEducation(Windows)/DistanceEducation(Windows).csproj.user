@@ -43,6 +43,9 @@
     <Compile Update="Views\Buttons\LessonControlButton.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Chat\ChatView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\GradesListItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -127,6 +130,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Buttons\LessonControlButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Chat\ChatView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\GradesListItemView.xaml">
