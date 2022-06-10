@@ -4,6 +4,7 @@
     {
 
         //webrtcgotest.ddns.net:57000
+        //192.168.1.105:57000
         /// <summary>
         /// Get list Institutions
         /// </summary>
@@ -34,7 +35,7 @@
         /// </summary>
         public static async Task<List<HomeWorkModel>> GetHomeWork() 
         {
-            string Link = "http://webrtcgotest.ddns.net:57000/get_school_homework";
+            string Link = "http://192.168.1.105:57000/get_school_homework";
             int id; 
 
             string path = $"C:\\Users\\aleks\\data.txt";
@@ -61,7 +62,7 @@
         public static async Task<List<GradesListModel>> GetGradesList() 
         {
 
-            string Link = "http://webrtcgotest.ddns.net:57000/get_rates";
+            string Link = "http://192.168.1.105:57000/get_rates";
             int id;
 
             string path = $"C:\\Users\\aleks\\data.txt";

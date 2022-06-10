@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Git\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
+C:\Users\aleks\Documents\GitHub\DistanceEducation\DistanceEducation(Windows)\obj\Debug\net6.0-windows7.0\
 DistanceEducation_Windows_
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Git\DistanceEducation\DistanceEducation(Windows)\App.xaml
-30-1070061668
+C:\Users\aleks\Documents\GitHub\DistanceEducation\DistanceEducation(Windows)\App.xaml
+31-1390889684
 
-57-570389415
-217-904462092
-Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\ComboBoxRegStyle.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\Buttons\LessonControlButton.xaml;Views\Chat\ChatView.xaml;Views\GradesListItemView.xaml;Views\GradesListView.xaml;Views\HeaderView.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselItemView.xaml;Views\ImageCarouselView.xaml;Views\LessonUserWindowView.xaml;Views\LessonView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\SettingsView.xaml;Views\UserView.xaml;
+58-1249750206
+217-408333917
+Components\BindablePasswordBox.xaml;Pages\AuthorizationWindow.xaml;Pages\ChatsPage.xaml;Pages\GradesListPage.xaml;Pages\GradesPage.xaml;Pages\HomeWorksPage.xaml;Pages\LessonPage.xaml;Pages\MainPage.xaml;Pages\MainWindow.xaml;Pages\SettingsPage.xaml;Pages\TestsPage.xaml;Pages\Tray\TrayWindow.xaml;Resources\Styles\ComboBoxRegStyle.xaml;Resources\Styles\Styles.xaml;Resources\Themes\LightTheme.xaml;Views\Buttons\LessonControlButton.xaml;Views\Chat\ChatView.xaml;Views\Chat\MessageView.xaml;Views\GradesListItemView.xaml;Views\GradesListView.xaml;Views\HeaderView.xaml;Views\HomeWorkListItemView.xaml;Views\HomeWorkListView.xaml;Views\ImageCarouselItemView.xaml;Views\ImageCarouselView.xaml;Views\LessonUserWindowView.xaml;Views\LessonView.xaml;Views\MainPageChatItemView.xaml;Views\MainPageLessonItemView.xaml;Views\SettingsView.xaml;Views\UserView.xaml;
 
 True
 

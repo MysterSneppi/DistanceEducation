@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s8m/+XM6Cyw9LZy2SOEWZso6Y9NQ00TaL1A7faqlw9x+47XQh2XAQr6uCT2J/ExMXmKTmWb+GHYBgBJLcQ9Mqw==",
+  "dgSpecHash": "V8t31+HhZE6/KVMFpQxGSIbOuOyD14lAhJ/boSgoBaHPZV/ontFaGdPleuDrSeay27yLkcNGTCynfSY/FFnwtQ==",
   "success": true,
-  "projectFilePath": "D:\\Git\\DistanceEducation\\DistanceEducation(Windows)\\DistanceEducation(Windows).csproj",
+  "projectFilePath": "C:\\Users\\aleks\\Documents\\GitHub\\DistanceEducation\\DistanceEducation(Windows)\\DistanceEducation(Windows).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",

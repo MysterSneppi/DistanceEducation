@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DistanceEducation_Windows_.Views.Chat"
+             xmlns:view="clr-namespace:DistanceEducation_Windows_.Views.Chat"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="1100">
     <Grid Margin="30">
@@ -18,6 +19,14 @@
                 <RowDefinition Height="9*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+
+            <ItemsControl Grid.Row="0">
+                <view:MessageView/>
+                <view:MessageView/>
+                <view:MessageView/>
+                <view:MessageView/>
+            </ItemsControl>
+
 
             <!--DownMenu-->
             <Grid Grid.Row="1" Margin="0">
